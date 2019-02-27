@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="all-tests [Firefox]"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.704">
+  <properties />
+  
+  
+            <testcase name="createdPatientCard" time="7.704" classname="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest" />
+      
+</testsuite>

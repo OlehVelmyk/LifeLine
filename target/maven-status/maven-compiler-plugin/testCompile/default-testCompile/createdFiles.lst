@@ -1,0 +1,11 @@
+com/scenario_projects/lifeline_front_stage/pages/ResetPasswordPage.class
+com/scenario_projects/lifeline_front_stage/pages/DashBoardPage.class
+com/scenario_projects/lifeline_front_stage/tests/N_0002_ResetPasswordTest.class
+com/scenario_projects/lifeline_front_stage/pages/BasePage.class
+com/scenario_projects/lifeline_front_stage/tests/BaseTest.class
+com/scenario_projects/lifeline_front_stage/tests/N_0001_LoginTest.class
+com/scenario_projects/lifeline_front_stage/logging/CustomReporter.class
+com/scenario_projects/lifeline_front_stage/pages/LoginPage.class
+com/scenario_projects/lifeline_front_stage/logging/EventHandler.class
+com/scenario_projects/lifeline_front_stage/pages/EmailPage.class
+com/scenario_projects/lifeline_front_stage/pages/NewPasswordPage.class

@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - all-tests [Firefox]</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>all-tests [Firefox]</h1>
+<p>
+  Test duration: 659.786s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginTest
+      </td>
+  <td class="duration">
+    3.613s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:09:33.309458] Navigate to https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:09:34.883764] Navigated to: https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:09:34.883852] ACTION: FILL IN EMAIL FIELD<br />
+                                [16:09:34.883908] Search for element By.name: email<br />
+                                [16:09:35.932987] Search for element By.name: email<br />
+                                [16:09:35.949762] Found element input<br />
+                                [16:09:35.952662] Change value of input: ovelmik@s-pro.io<br/>
+<br />
+                                [16:09:36.08304] Changed element input<br />
+                                [16:09:36.083081] ACTION: FILL IN PASSWORD FIELD<br />
+                                [16:09:36.083166] Search for element By.name: password<br />
+                                [16:09:36.091023] Search for element By.name: password<br />
+                                [16:09:36.10228] Found element input<br />
+                                [16:09:36.107308] Change value of input: Qwerty123!<br/>
+<br />
+                                [16:09:36.192061] Changed element input<br />
+                                [16:09:36.192096] ACTION: CLICK ON LOGIN BUTTON<br />
+                                [16:09:36.192119] Search for element By.cssSelector: button[class=&apos;rectangular-button__wrapper&nbsp; &apos;]<br />
+                                [16:09:36.278339] Search for element By.cssSelector: button[class=&apos;rectangular-button__wrapper&nbsp; &apos;]<br />
+                                [16:09:36.288112] Found element button<br />
+                                [16:09:36.291551] Click on element button<br />
+                                [16:09:36.527045] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:09:36.527084] Search for element By.className: dashboard-block__header<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  changePasswordTest
+      </td>
+  <td class="duration">
+    3.999s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:17:16.715806] Navigate to https://lifeline-front-stage.scenario-projects.com/auth/new-password?uid=MDI4MTAzOTktZjEzYy00YWZlLWFiOGQtMjI2MzQ4ZjM0MDg0&amp;token=53v-669ab0c847fa9c165e0a<br />
+                                [16:17:17.716872] Navigated to: https://lifeline-front-stage.scenario-projects.com/auth/new-password?uid=MDI4MTAzOTktZjEzYy00YWZlLWFiOGQtMjI2MzQ4ZjM0MDg0&amp;token=53v-669ab0c847fa9c165e0a<br />
+                                [16:17:17.726035] ACTION: FILL IN PASSWORD FIELD<br />
+                                [16:17:17.726092] Search for element By.name: new_password1<br />
+                                [16:17:18.751235] Search for element By.name: new_password1<br />
+                                [16:17:18.770715] Found element input<br />
+                                [16:17:18.778559] Change value of input: Qwerty123!1550239253223<br/>
+<br />
+                                [16:17:18.908805] Changed element input<br />
+                                [16:17:18.908827] ACTION: FILL IN CONFIRM PASSWORD FIELD<br />
+                                [16:17:18.908855] Search for element By.name: new_password2<br />
+                                [16:17:18.921786] Search for element By.name: new_password2<br />
+                                [16:17:18.936903] Found element input<br />
+                                [16:17:18.941273] Change value of input: Qwerty123!1550239253223<br/>
+<br />
+                                [16:17:19.040247] Changed element input<br />
+                                [16:17:19.040267] ACTION: CLICK ON CHANGE PASSWORD BUTTON<br />
+                                [16:17:19.040288] Search for element By.xpath: //button[text()=&apos;Change Password&apos;]<br />
+                                [16:17:19.128124] Search for element By.xpath: //button[text()=&apos;Change Password&apos;]<br />
+                                [16:17:19.137793] Found element button<br />
+                                [16:17:19.140785] Click on element button<br />
+                                [16:17:19.374889] ACTION: CHECK THAT THE ELEMENT IS PRESENT ON THE PAGE<br />
+                                [16:17:19.374926] Search for element By.cssSelector: .new-password-form__logo-wrapper&gt;div&gt;div&gt;.injected-svg<br />
+                                [16:17:19.491779] Search for element By.cssSelector: .new-password-form__logo-wrapper&gt;div&gt;div&gt;.injected-svg<br />
+                                [16:17:19.503689] Found element svg<br />
+                                [16:17:19.503759] ACTION: CLICK ON LOGIN BUTTON<br />
+                                [16:17:19.503788] Search for element By.xpath: //button[text()=&apos;Login&apos;]<br />
+                                [16:17:19.596064] Search for element By.xpath: //button[text()=&apos;Login&apos;]<br />
+                                [16:17:19.606603] Found element button<br />
+                                [16:17:19.610908] Click on element button<br />
+                                [16:17:19.851319] ACTION: CHECK THAT THE USER BACK TO LOGIN PAGE<br />
+                                [16:17:19.851379] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:17:19.860008] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:17:19.871454] Found element button<br />
+                                [16:17:19.871515] ACTION: FILL IN EMAIL FIELD<br />
+                                [16:17:19.871553] Search for element By.name: email<br />
+                                [16:17:19.877494] Search for element By.name: email<br />
+                                [16:17:19.886989] Found element input<br />
+                                [16:17:19.890598] Change value of input: testspro123@gmail.com<br/>
+<br />
+                                [16:17:20.006121] Changed element input<br />
+                                [16:17:20.006143] ACTION: FILL IN PASSWORD FIELD<br />
+                                [16:17:20.006172] Search for element By.name: password<br />
+                                [16:17:20.01127] Search for element By.name: password<br />
+                                [16:17:20.019486] Found element input<br />
+                                [16:17:20.022509] Change value of input: Qwerty123!1550239253223<br/>
+<br />
+                                [16:17:20.120923] Changed element input<br />
+                                [16:17:20.120943] ACTION: CLICK ON LOGIN BUTTON<br />
+                                [16:17:20.120964] Search for element By.cssSelector: button[class=&apos;rectangular-button__wrapper&nbsp; &apos;]<br />
+                                [16:17:20.203366] Search for element By.cssSelector: button[class=&apos;rectangular-button__wrapper&nbsp; &apos;]<br />
+                                [16:17:20.213784] Found element button<br />
+                                [16:17:20.216889] Click on element button<br />
+                                [16:17:20.441186] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:17:20.441221] Search for element By.className: dashboard-block__header<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  emailTest
+      </td>
+  <td class="duration">
+    20.976s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:16:31.269763] Navigate to https://www.google.com/<br />
+                                [16:16:32.522296] Navigated to: https://www.google.com/<br />
+                                [16:16:32.522344] ACTION: CLICK ON GMAIL LINK<br />
+                                [16:16:32.522374] Search for element By.linkText: Gmail<br />
+                                [16:16:32.735878] Search for element By.linkText: Gmail<br />
+                                [16:16:32.753026] Found element a<br />
+                                [16:16:32.756896] Click on element a<br />
+                                [16:16:34.567139] ACTION: CLICK ON GMAIL LINK<br />
+                                [16:16:34.567614] Search for element By.className: gmail-nav__nav-link__sign-in<br />
+                                [16:16:34.66159] Search for element By.className: gmail-nav__nav-link__sign-in<br />
+                                [16:16:34.672109] Found element a<br />
+                                [16:16:34.676281] Click on element a<br />
+                                [16:16:35.859555] ACTION: FILL IN EMAIL FIELD<br />
+                                [16:16:35.859619] Search for element By.id: identifierId<br />
+                                [16:16:35.868455] Search for element By.id: identifierId<br />
+                                [16:16:35.8806] Found element input<br />
+                                [16:16:35.883389] Change value of input: testspro123@gmail.com<br/>
+<br />
+                                [16:16:36.071666] Changed element input<br />
+                                [16:16:36.071686] ACTION: CLICK ON NEXT BUTTON<br />
+                                [16:16:36.071709] Search for element By.id: identifierNext<br />
+                                [16:16:36.155446] Search for element By.id: identifierNext<br />
+                                [16:16:36.164722] Found element div<br />
+                                [16:16:36.167864] Click on element div<br />
+                                [16:16:36.430384] ACTION: FILL IN PASSWORD FIELD<br />
+                                [16:16:38.430552] Search for element By.name: password<br />
+                                [16:16:38.436163] Search for element By.name: password<br />
+                                [16:16:38.444165] Found element input<br />
+                                [16:16:38.447827] Change value of input: 80637115010<br/>
+<br />
+                                [16:16:38.532746] Changed element input<br />
+                                [16:16:38.532768] ACTION: CLICK ON NEXT BUTTON<br />
+                                [16:16:40.532898] Search for element By.id: passwordNext<br />
+                                [16:16:40.626133] Search for element By.id: passwordNext<br />
+                                [16:16:40.635323] Found element div<br />
+                                [16:16:40.638605] Click on element div<br />
+                                [16:16:51.258137] ACTION: CLICK ON EMAIL MESSAGE<br />
+                                [16:16:51.258171] Search for element By.xpath: //*/span[text()=&apos;lifeline.product.ca.&apos;]/../../..<br />
+                                [16:16:51.4614] Search for element By.xpath: //*/span[text()=&apos;lifeline.product.ca.&apos;]/../../..<br />
+                                [16:16:51.609208] Found element td<br />
+                                [16:16:51.629667] Click on element td<br />
+                                [16:16:51.852953] Search for element By.cssSelector: .a3s.aXjCH&gt;a<br />
+                                [16:16:52.170181] Search for element By.cssSelector: .a3s.aXjCH&gt;a<br />
+                                [16:16:52.200827] ACTION: GET EMAIL MESSAGE LINK<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  resetPasswordTest
+      </td>
+  <td class="duration">
+    7.368s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:15:49.930674] Navigate to https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:15:53.36249] Navigated to: https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:15:53.362559] ACTION: CLICK ON RESET PASSWORD BUTTON<br />
+                                [16:15:53.362617] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:15:54.438629] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:15:54.456341] Found element button<br />
+                                [16:15:54.465046] Click on element button<br />
+                                [16:15:54.716026] ACTION: FILL IN EMAIL FIELD<br />
+                                [16:15:54.716078] Search for element By.name: email<br />
+                                [16:15:54.72182] Search for element By.name: email<br />
+                                [16:15:54.736579] Found element input<br />
+                                [16:15:54.740034] Change value of input: testspro123@gmail.com<br/>
+<br />
+                                [16:15:54.859081] Changed element input<br />
+                                [16:15:54.859109] ACTION: CLICK ON SEND LINK BUTTON<br />
+                                [16:15:54.859142] Search for element By.xpath: //button[text()=&apos;Send Link&apos;]<br />
+                                [16:15:54.958069] Search for element By.xpath: //button[text()=&apos;Send Link&apos;]<br />
+                                [16:15:54.966983] Found element button<br />
+                                [16:15:54.972466] Click on element button<br />
+                                [16:15:55.21199] ACTION: CHECK THAT THE ELEMENT IS PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:15:55.212015] ACTION: RESEND LINK BUTTON IS PRESENT<br />
+                                [16:15:55.212068] Search for element By.xpath: //button[text()=&apos;Resend Link&apos;]<br />
+                                [16:15:57.283531] Search for element By.xpath: //button[text()=&apos;Resend Link&apos;]<br />
+                                [16:15:57.298793] Found element button<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  backToLoginTest
+      </td>
+  <td class="duration">
+    4.847s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:09:43.925011] Navigate to https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:09:46.463546] Navigated to: https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:09:46.463899] ACTION: CLICK ON RESET PASSWORD BUTTON<br />
+                                [16:09:46.463947] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:09:48.041242] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:09:48.137525] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:09:48.147343] Found element button<br />
+                                [16:09:48.150395] Click on element button<br />
+                                [16:09:48.393208] ACTION: CLICK ON BACK TO LOGIN BUTTON<br />
+                                [16:09:48.393308] Search for element By.xpath: //button[text()=&apos;Back to Login&apos;]<br />
+                                [16:09:48.486834] Search for element By.xpath: //button[text()=&apos;Back to Login&apos;]<br />
+                                [16:09:48.497492] Found element button<br />
+                                [16:09:48.516891] Click on element button<br />
+                                [16:09:48.751303] ACTION: CHECK THAT THE USER BACK TO LOGIN PAGE<br />
+                                [16:09:48.751393] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:09:48.761341] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:09:48.771349] Found element button<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  refreshDashBoardPage
+      </td>
+  <td class="duration">
+    2.449s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:14:32.819546] ACTION: CLICK ON REFRESH BUTTON<br />
+                                [16:14:32.81959] Search for element By.className: icon-btn-modified__title<br />
+                                [16:14:32.917081] Search for element By.className: icon-btn-modified__title<br />
+                                [16:14:32.928356] Found element p<br />
+                                [16:14:32.931827] Click on element p<br />
+                                [16:14:33.725388] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:14:33.725416] Search for element By.className: dashboard-block__header<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  logout
+      </td>
+  <td class="duration">
+    1.630s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:18:26.321479] ACTION: CLICK ON PROFILE ICON<br />
+                                [16:18:26.32152] Search for element By.className: main-navigation-bar__profile-wrapper<br />
+                                [16:18:26.422844] Search for element By.className: main-navigation-bar__profile-wrapper<br />
+                                [16:18:26.429385] Found element div<br />
+                                [16:18:26.431819] Click on element div<br />
+                                [16:18:26.654141] ACTION: CLICK ON LOGOUT LINK<br />
+                                [16:18:27.654251] Search for element By.className: profile-menu__logout-btn<br />
+                                [16:18:27.677545] Found element p<br />
+                                [16:18:27.680746] Click on element p<br />
+                                [16:18:27.931185] ACTION: CHECK THAT THE USER BACK TO LOGIN PAGE<br />
+                                [16:18:27.931255] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:18:27.941373] Search for element By.xpath: //button[text()=&apos;Reset Password&apos;]<br />
+                                [16:18:27.951685] Found element button<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToPatientsPage
+      </td>
+  <td class="duration">
+    0.425s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:14:46.709814] Search for element By.className: nav-bar-link__label<br />
+                                [16:14:46.809457] Search for element By.className: nav-bar-link__label<br />
+                                [16:14:46.816741] ACTION: CLICK ON PATIENTS MENU ICON<br />
+                                [16:14:46.841897] ACTION: Dashboard doesn&apos;t equal Patients<br />
+                                [16:14:46.862756] Click on element p<br />
+                                [16:14:47.129683] ACTION: CHECK THAT THE FILTER BUTTON INACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:14:47.12971] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--darkGrey<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  refreshPatientsPage
+      </td>
+  <td class="duration">
+    2.571s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:18:39.284394] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:39.377663] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:39.388491] ACTION: CLICK ON PATIENTS MENU ICON<br />
+                                [16:18:39.416717] ACTION: Dashboard doesn&apos;t equal Patients<br />
+                                [16:18:39.433407] Click on element p<br />
+                                [16:18:39.70175] ACTION: CHECK THAT THE FILTER BUTTON INACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:18:39.701782] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--darkGrey<br />
+                                [16:18:39.708808] ACTION: CLICK ON REFRESH BUTTON<br />
+                                [16:18:39.708866] Search for element By.className: icon-btn-modified__title<br />
+                                [16:18:39.797232] Search for element By.className: icon-btn-modified__title<br />
+                                [16:18:39.805582] Found element p<br />
+                                [16:18:39.808916] Click on element p<br />
+                                [16:18:40.557235] ACTION: CHECK THAT THE FILTER BUTTON INACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:18:40.557261] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--darkGrey<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkVisibilityPassword
+      </td>
+  <td class="duration">
+    4.480s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:11:04.552436] Navigate to https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:11:07.124658] Navigated to: https://lifeline-front-stage.scenario-projects.com/auth/login<br />
+                                [16:11:07.124725] ACTION: CLICK ON LOGIN BUTTON<br />
+                                [16:11:07.124754] Search for element By.className: visible-icon<br />
+                                [16:11:08.689989] Search for element By.className: visible-icon<br />
+                                [16:11:08.780033] Search for element By.className: visible-icon<br />
+                                [16:11:08.791533] Found element div<br />
+                                [16:11:08.79547] Click on element div<br />
+                                [16:11:09.025679] ACTION: CHECK THAT THE USER BACK TO LOGIN PAGE<br />
+                                [16:11:09.025722] Search for element By.xpath: //input[@type=&apos;text&apos;]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkTaskDayCounter
+      </td>
+  <td class="duration">
+    30.688s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:08:44.97078] ACTION: GET DAY TASK COUNT ON THE DASHBOARD<br />
+                                [16:08:44.970835] Search for element By.cssSelector: .task-item:nth-child(1)&gt;.task-item__count<br />
+                                [16:08:52.8752] Search for element By.cssSelector: .task-item:nth-child(1)&gt;.task-item__count<br />
+                                [16:08:52.97453] Search for element By.cssSelector: .task-item:nth-child(1)&gt;.task-item__count<br />
+                                [16:08:52.999495] Found element div<br />
+                                [16:08:53.016971] ACTION: CLICK ON DAY TASK COUNTER<br />
+                                [16:08:53.017029] Search for element By.cssSelector: .task-item:nth-child(1)&gt;.task-item__count<br />
+                                [16:08:53.114867] Search for element By.cssSelector: .task-item:nth-child(1)&gt;.task-item__count<br />
+                                [16:08:53.125587] Found element div<br />
+                                [16:08:53.128392] Click on element div<br />
+                                [16:08:53.396212] ACTION: CHECK THAT THE FILTER BUTTON ACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:08:53.396267] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--blue<br />
+                                [16:08:53.402827] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:53.402887] Search for element By.cssSelector: ul.pagination&gt;li<br />
+                                [16:09:08.416691] ACTION: GET PATIENTS CARDS LIST<br />
+                                [16:09:08.416751] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:09:08.41678] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:08.431123] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:08.521967] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:08.535237] Click on element div<br />
+                                [16:09:08.85533] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:09.229755] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:09.265832] Click on element div<br />
+                                [16:09:09.536225] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:09.541411] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:09.548616] Found element span<br />
+                                [16:09:09.567227] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:09.567277] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:09.654297] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:09.663414] Found element p<br />
+                                [16:09:09.666743] Click on element p<br />
+                                [16:09:09.692014] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:09.692082] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:09.808303] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:09.818794] Found element p<br />
+                                [16:09:09.821325] Click on element p<br />
+                                [16:09:09.840341] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:10.643865] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:10.740948] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:10.751848] Click on element div<br />
+                                [16:09:11.030205] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:11.334356] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:11.349098] Click on element div<br />
+                                [16:09:11.59691] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:11.601917] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:11.608738] Found element span<br />
+                                [16:09:11.622498] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:11.622556] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:11.696789] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:11.705688] Found element p<br />
+                                [16:09:11.708855] Click on element p<br />
+                                [16:09:11.729499] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:11.729571] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:11.848361] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:11.857386] Found element p<br />
+                                [16:09:11.859815] Click on element p<br />
+                                [16:09:11.878423] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:12.755923] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:12.841852] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:12.850733] Click on element div<br />
+                                [16:09:13.133981] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:13.314708] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:13.335813] Click on element div<br />
+                                [16:09:13.586297] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:13.591076] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:13.598166] Found element span<br />
+                                [16:09:13.611993] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:13.612069] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:13.698219] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:13.707083] Found element p<br />
+                                [16:09:13.712199] Click on element p<br />
+                                [16:09:13.736225] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:13.736283] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:13.817997] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:13.825658] Found element p<br />
+                                [16:09:13.828085] Click on element p<br />
+                                [16:09:13.847507] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:14.622424] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:14.712882] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:09:14.72308] Click on element div<br />
+                                [16:09:14.997481] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:15.13181] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:09:15.138784] Click on element div<br />
+                                [16:09:15.386681] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:15.392109] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:09:15.398438] Found element span<br />
+                                [16:09:15.413601] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:15.413649] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:15.496216] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:15.504886] Found element p<br />
+                                [16:09:15.508214] Click on element p<br />
+                                [16:09:15.527579] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:09:15.527639] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:15.631691] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:09:15.639212] Found element p<br />
+                                [16:09:15.641751] Click on element p<br />
+                                [16:09:15.658054] ACTION: COUNT TASKS NUMBER FOR TODAY ON PATIENTS DETAIL PAGE<br />
+                                [16:09:15.658093] ACTION: COUNT TASKS NUMBER FOR TODAY ON PATIENTS PAGE<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkTaskDayCounter
+      </td>
+  <td class="duration">
+    13.604s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:07:52.871712] ACTION: GET TASK ASSIGNED TO ME COUNT ON THE DASHBOARD<br />
+                                [16:07:52.871783] Search for element By.cssSelector: .task-item:nth-child(3)&gt;.task-item__count<br />
+                                [16:08:00.337568] Search for element By.cssSelector: .task-item:nth-child(3)&gt;.task-item__count<br />
+                                [16:08:00.430818] Search for element By.cssSelector: .task-item:nth-child(3)&gt;.task-item__count<br />
+                                [16:08:00.445581] Found element div<br />
+                                [16:08:00.469607] ACTION: CLICK ON DUE TASK COUNTER<br />
+                                [16:08:00.46966] Search for element By.cssSelector: .task-item:nth-child(3)&gt;.task-item__count<br />
+                                [16:08:00.559643] Search for element By.cssSelector: .task-item:nth-child(3)&gt;.task-item__count<br />
+                                [16:08:00.57663] Found element div<br />
+                                [16:08:00.57987] Click on element div<br />
+                                [16:08:00.847379] ACTION: CHECK THAT THE FILTER BUTTON ACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:08:00.847437] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--blue<br />
+                                [16:08:00.853841] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:00.85389] Search for element By.cssSelector: ul.pagination&gt;li<br />
+                                [16:08:01.317555] ACTION: GET PATIENTS CARDS LIST<br />
+                                [16:08:01.317589] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:01.317601] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:08:01.331489] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:01.909903] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:02.007888] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:02.181284] ACTION: COUNT DUE NUMBER IN EACH PATIENTS CARD ON PATIENTS PAGE<br />
+                                [16:08:02.181319] ACTION: GET PAGINATION PAGES LIST<br />
+                                [16:08:02.181342] Search for element By.cssSelector: ul.pagination&gt;li<br />
+                                [16:08:02.255831] Search for element By.cssSelector: ul.pagination&gt;li<br />
+                                [16:08:02.264274] Click on element li<br />
+                                [16:08:02.514124] ACTION: GET PATIENTS CARDS LIST<br />
+                                [16:08:02.514184] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:02.514207] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:08:02.97319] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:03.551848] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:03.646377] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:03.789403] ACTION: COUNT DUE NUMBER IN EACH PATIENTS CARD ON PATIENTS PAGE<br />
+                                [16:08:03.792416] Click on element li<br />
+                                [16:08:04.051064] ACTION: GET PATIENTS CARDS LIST<br />
+                                [16:08:04.05111] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:04.051128] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:08:04.35453] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:04.940609] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:05.0297] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:05.187536] ACTION: COUNT DUE NUMBER IN EACH PATIENTS CARD ON PATIENTS PAGE<br />
+                                [16:08:05.190835] Click on element li<br />
+                                [16:08:05.445834] ACTION: GET PATIENTS CARDS LIST<br />
+                                [16:08:05.445895] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:08:05.445921] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:08:05.721994] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:06.30212] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:06.384633] Search for element By.cssSelector: .desktop-table-card&gt;div:nth-child(5)&gt;div<br />
+                                [16:08:06.475932] ACTION: COUNT DUE NUMBER IN EACH PATIENTS CARD ON PATIENTS PAGE<br />
+                                [16:08:06.475971] ACTION: COUNT DUE TASKS NUMBER ON PATIENTS PAGE<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToMessagePage
+      </td>
+  <td class="duration">
+    0.529s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:18:14.71549] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:14.821512] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:14.828519] ACTION: CLICK ON MESSAGES MENU ICON<br />
+                                [16:18:14.854533] ACTION: Dashboard doesn&apos;t equal Messages<br />
+                                [16:18:14.877079] ACTION: Patients doesn&apos;t equal Messages<br />
+                                [16:18:14.90654] Click on element p<br />
+                                [16:18:15.159454] ACTION: VERIFY THAT THE TABS BUTTONS ARE PRESENT ON THE PAGE<br />
+                                [16:18:15.159498] Search for element By.className: sub-tabs-header__tab-list<br />
+                                [16:18:15.170025] Found element div<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  refreshMessagesPage
+      </td>
+  <td class="duration">
+    2.867s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:11:18.825813] Search for element By.className: nav-bar-link__label<br />
+                                [16:11:18.933447] Search for element By.className: nav-bar-link__label<br />
+                                [16:11:18.940868] ACTION: CLICK ON MESSAGES MENU ICON<br />
+                                [16:11:18.970269] ACTION: Dashboard doesn&apos;t equal Messages<br />
+                                [16:11:18.994294] ACTION: Patients doesn&apos;t equal Messages<br />
+                                [16:11:19.016297] Click on element p<br />
+                                [16:11:19.275635] ACTION: VERIFY THAT THE TABS BUTTONS ARE PRESENT ON THE PAGE<br />
+                                [16:11:19.275704] Search for element By.className: sub-tabs-header__tab-list<br />
+                                [16:11:19.287763] Found element div<br />
+                                [16:11:19.365143] ACTION: CLICK ON REFRESH BUTTON<br />
+                                [16:11:19.365208] Search for element By.className: icon-btn-modified__title<br />
+                                [16:11:19.453097] Search for element By.className: icon-btn-modified__title<br />
+                                [16:11:19.462441] Found element p<br />
+                                [16:11:19.465331] Click on element p<br />
+                                [16:11:20.234652] ACTION: VERIFY THAT THE TABS BUTTONS ARE PRESENT ON THE PAGE<br />
+                                [16:11:20.234694] Search for element By.className: sub-tabs-header__tab-list<br />
+                                [16:11:21.615923] Found element div<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkPatientsWithTasksOfTheDayFilter
+      </td>
+  <td class="duration">
+    0.213s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:17:08.662404] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:17:08.662486] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:17:08.761448] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:17:08.772676] Found element p<br />
+                                [16:17:08.775261] Click on element p<br />
+                                [16:17:08.794673] ACTION: CHECK THAT THE FILTER BUTTON INACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:17:08.794699] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--darkGrey<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToArchivePage
+      </td>
+  <td class="duration">
+    1.995s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:09:24.690782] Search for element By.className: nav-bar-link__label<br />
+                                [16:09:24.811356] Search for element By.className: nav-bar-link__label<br />
+                                [16:09:24.818738] ACTION: CLICK ON ARCHIVE MENU ICON<br />
+                                [16:09:24.845713] ACTION: Dashboard doesn&apos;t equal Archive<br />
+                                [16:09:24.873078] ACTION: Patients doesn&apos;t equal Archive<br />
+                                [16:09:24.896558] ACTION: Messages doesn&apos;t equal Archive<br />
+                                [16:09:24.921699] Click on element p<br />
+                                [16:09:25.175868] ACTION: CHECK THAT THE FILTER BUTTON ACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:09:25.175935] Search for element By.className: desktop-table-card__buttons-group<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToDashboardPage
+      </td>
+  <td class="duration">
+    2.127s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:18:00.545364] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:00.640307] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:00.646186] ACTION: CLICK ON ARCHIVE MENU ICON<br />
+                                [16:18:00.674955] ACTION: Dashboard doesn&apos;t equal Archive<br />
+                                [16:18:00.71494] ACTION: Patients doesn&apos;t equal Archive<br />
+                                [16:18:00.746897] ACTION: Messages doesn&apos;t equal Archive<br />
+                                [16:18:00.765744] Click on element p<br />
+                                [16:18:01.020082] ACTION: CHECK THAT THE FILTER BUTTON ACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:18:01.020104] Search for element By.className: desktop-table-card__buttons-group<br />
+                                [16:18:02.051428] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:02.219435] Search for element By.className: nav-bar-link__label<br />
+                                [16:18:02.230695] ACTION: CLICK ON DASHBOARD MENU ICON<br />
+                                [16:18:02.255631] Click on element p<br />
+                                [16:18:02.661794] ACTION: CHECK THAT THE ELEMENTS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:18:02.661823] Search for element By.className: dashboard-block__header<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  refreshPatientsDetailPlanningPage
+      </td>
+  <td class="duration">
+    2.460s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:14:16.570164] ACTION: CLICK ON REFRESH BUTTON<br />
+                                [16:14:16.570218] Search for element By.cssSelector: .icon-btn-modified.icon-btn-modified--title-first&gt;p<br />
+                                [16:14:16.674524] Search for element By.cssSelector: .icon-btn-modified.icon-btn-modified--title-first&gt;p<br />
+                                [16:14:16.684918] Found element p<br />
+                                [16:14:16.687969] Click on element p<br />
+                                [16:14:17.390031] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:14:17.390057] Search for element By.className: calendar-day-cell<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createdPatientCard
+      </td>
+  <td class="duration">
+    7.704s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:10:23.395159] Search for element By.className: nav-bar-link__label<br />
+                                [16:10:23.499675] Search for element By.className: nav-bar-link__label<br />
+                                [16:10:23.506652] ACTION: CLICK ON PATIENTS MENU ICON<br />
+                                [16:10:23.533882] ACTION: Dashboard doesn&apos;t equal Patients<br />
+                                [16:10:23.555092] Click on element p<br />
+                                [16:10:23.83003] ACTION: CHECK THAT THE FILTER BUTTON INACTIVE IS PRESENT ON THE PAGE<br />
+                                [16:10:23.830101] Search for element By.cssSelector: .rectangular-button__wrapper.rectangular-button__wrapper--darkGrey<br />
+                                [16:10:23.837309] ACTION: CLICK ON CREATE NEW PATIENT BUTTON<br />
+                                [16:10:23.837383] Search for element By.className: round-button<br />
+                                [16:10:23.924638] Search for element By.className: round-button<br />
+                                [16:10:23.932891] Found element a<br />
+                                [16:10:23.936086] Click on element a<br />
+                                [16:10:24.332595] ACTION: CHECK THAT THE PROCEED BUTTON IS PRESENT ON THE CREATE PATIENT PAGE<br />
+                                [16:10:24.332641] Search for element By.xpath: //button[text()=&apos;Proceed&apos;]<br />
+                                [16:10:24.339176] ACTION: FILL IN NAME FIELD<br />
+                                [16:10:24.339246] Search for element By.name: full_name<br />
+                                [16:10:24.417873] Search for element By.name: full_name<br />
+                                [16:10:24.429148] Found element input<br />
+                                [16:10:24.431376] Change value of input: New patient 1550239823395<br/>
+<br />
+                                [16:10:24.8645] Changed element input<br />
+                                [16:10:24.864545] ACTION: CLICK ON UNIT FIELD<br />
+                                [16:10:24.864578] Search for element By.name: unit<br />
+                                [16:10:24.965388] Search for element By.name: unit<br />
+                                [16:10:24.979147] Found element select<br />
+                                [16:10:24.982108] Click on element select<br />
+                                [16:10:25.212658] ACTION: SELECT UNIT FROM UNIT FIELD<br />
+                                [16:10:25.21271] Search for element By.xpath: //option[@value=&apos;1&apos;]<br />
+                                [16:10:25.298503] Search for element By.xpath: //option[@value=&apos;1&apos;]<br />
+                                [16:10:25.314186] Found element option<br />
+                                [16:10:25.325659] Click on element option<br />
+                                [16:10:25.601232] ACTION: FILL IN BIRTH DATE FIELD<br />
+                                [16:10:25.601295] Search for element By.name: birth_date<br />
+                                [16:10:25.698954] Search for element By.name: birth_date<br />
+                                [16:10:25.711708] Found element input<br />
+                                [16:10:25.716667] Change value of input: 1975-02-03<br/>
+<br />
+                                [16:10:25.80333] Changed element input<br />
+                                [16:10:25.803367] ACTION: SELECT GENDER FROM GENDER FIELD<br />
+                                [16:10:25.803397] Search for element By.xpath: //option[text()=&apos;Male&apos;]<br />
+                                [16:10:25.896266] Search for element By.xpath: //option[text()=&apos;Male&apos;]<br />
+                                [16:10:25.905302] Found element option<br />
+                                [16:10:25.911239] Click on element option<br />
+                                [16:10:26.173031] ACTION: SELECT COUNTRY FROM COUNTRY FIELD<br />
+                                [16:10:26.173098] Search for element By.xpath: //select[@name=&apos;country&apos;]/option[@value=&apos;UKR&apos;]<br />
+                                [16:10:26.261129] Search for element By.xpath: //select[@name=&apos;country&apos;]/option[@value=&apos;UKR&apos;]<br />
+                                [16:10:26.27006] Found element option<br />
+                                [16:10:26.274587] Click on element option<br />
+                                [16:10:26.508246] ACTION: FILL IN POST CODE FIELD<br />
+                                [16:10:26.508327] Search for element By.name: post_code<br />
+                                [16:10:26.590124] Search for element By.name: post_code<br />
+                                [16:10:26.598767] Found element input<br />
+                                [16:10:26.602261] Change value of input: 643993<br/>
+<br />
+                                [16:10:26.737143] Changed element input<br />
+                                [16:10:26.737184] ACTION: FILL IN ADDRESS FIELD<br />
+                                [16:10:26.737214] Search for element By.name: address<br />
+                                [16:10:26.831534] Search for element By.name: address<br />
+                                [16:10:26.837865] Found element input<br />
+                                [16:10:26.845386] Change value of input: Popova street, 5<br/>
+<br />
+                                [16:10:27.060999] Changed element input<br />
+                                [16:10:27.061075] ACTION: CLICK ON PROCEED BUTTON BUTTON<br />
+                                [16:10:27.061118] Search for element By.xpath: //button[text()=&apos;Proceed&apos;]<br />
+                                [16:10:27.150799] Search for element By.xpath: //button[text()=&apos;Proceed&apos;]<br />
+                                [16:10:27.162181] Found element button<br />
+                                [16:10:27.165069] Click on element button<br />
+                                [16:10:27.445867] ACTION: CLICK ON PROCEED BUTTON BUTTON<br />
+                                [16:10:27.445945] Search for element By.xpath: //button[text()=&apos;Proceed&apos;]<br />
+                                [16:10:27.528846] Search for element By.xpath: //button[text()=&apos;Proceed&apos;]<br />
+                                [16:10:27.53804] Found element button<br />
+                                [16:10:27.542132] Click on element button<br />
+                                [16:10:27.787187] ACTION: CLICK ON SAVE BUTTON BUTTON<br />
+                                [16:10:27.787252] Search for element By.xpath: //button[text()=&apos;Save&apos;]<br />
+                                [16:10:27.872766] Search for element By.xpath: //button[text()=&apos;Save&apos;]<br />
+                                [16:10:27.880034] Found element button<br />
+                                [16:10:27.882277] Click on element button<br />
+                                [16:10:28.101325] ACTION: CHECK THAT THE SUCCESSFULLY CREATED PATIENT CARD POPUP IS PRESENT ON THE PAGE<br />
+                                [16:10:28.101364] Search for element By.cssSelector: div.confirm<br />
+                                [16:10:29.055076] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:10:29.055158] Search for element By.className: confirm__btn<br />
+                                [16:10:29.652917] Search for element By.className: confirm__btn<br />
+                                [16:10:29.748741] Search for element By.className: confirm__btn<br />
+                                [16:10:29.762149] Found element button<br />
+                                [16:10:29.765578] Click on element button<br />
+                                [16:10:29.992867] ACTION: CHECK THAT THE PATIENT CARDS ARE PRESENT ON THE DASHBOARD PAGE<br />
+                                [16:10:29.992932] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:10:30.010136] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:10:30.173892] Search for element By.cssSelector: .list--content&gt;div<br />
+                                [16:10:30.1961] Click on element div<br />
+                                [16:10:30.523112] ACTION: CLICK ON PATIENT PROFILE LINK<br />
+                                [16:10:30.52318] Search for element By.xpath: //span[text()=&apos;Patient’s Profile&apos;]<br />
+                                [16:10:30.606471] Search for element By.xpath: //span[text()=&apos;Patient’s Profile&apos;]<br />
+                                [16:10:30.615563] Found element span<br />
+                                [16:10:30.619514] Click on element span<br />
+                                [16:10:30.900393] Search for element By.cssSelector: div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; span.info-card__value<br />
+                                [16:10:30.909629] Search for element By.cssSelector: div:nth-child(1) &gt; div &gt; div:nth-child(1) &gt; span.info-card__value<br />
+                                [16:10:30.918775] Found element span<br />
+                                [16:10:30.93522] Search for element By.cssSelector: div:nth-child(1) &gt; div &gt; div:nth-child(7) &gt; span.info-card__value<br />
+                                [16:10:30.941165] Search for element By.cssSelector: div:nth-child(1) &gt; div &gt; div:nth-child(7) &gt; span.info-card__value<br />
+                                [16:10:30.949683] Found element span<br />
+                                [16:10:30.963235] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(1) &gt; span.info-card__value<br />
+                                [16:10:30.968757] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(1) &gt; span.info-card__value<br />
+                                [16:10:30.977516] Found element span<br />
+                                [16:10:30.99027] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; span.info-card__value<br />
+                                [16:10:30.996915] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; span.info-card__value<br />
+                                [16:10:31.007905] Found element span<br />
+                                [16:10:31.019302] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div:nth-child(4) &gt; span.info-card__value<br />
+                                [16:10:31.025404] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div:nth-child(4) &gt; span.info-card__value<br />
+                                [16:10:31.034747] Found element span<br />
+                                [16:10:31.049848] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; span.info-card__value<br />
+                                [16:10:31.056716] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(6) &gt; span.info-card__value<br />
+                                [16:10:31.065452] Found element span<br />
+                                [16:10:31.07708] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(5) &gt; span.info-card__value<br />
+                                [16:10:31.083311] Search for element By.cssSelector: div:nth-child(2) &gt; div &gt; div:nth-child(5) &gt; span.info-card__value<br />
+                                [16:10:31.09076] Found element span<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createNewModeTask
+      </td>
+  <td class="duration">
+    5.449s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:12:55.646814] ACTION: CLICK ON CREATE TASK BUTTON ON THE PAGE<br />
+                                [16:12:55.646889] Search for element By.className: round-button<br />
+                                [16:12:55.751261] Search for element By.className: round-button<br />
+                                [16:12:55.758937] Found element a<br />
+                                [16:12:55.761626] Click on element a<br />
+                                [16:12:56.025316] ACTION: CLICK ON CATEGORIES CONTENT<br />
+                                [16:12:56.025362] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:12:56.602348] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:12:56.70366] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:12:56.713634] Found element div<br />
+                                [16:12:56.716989] Click on element div<br />
+                                [16:12:56.990281] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:12:56.990326] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:12:57.561053] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:12:57.650184] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:12:57.65918] Found element div<br />
+                                [16:12:57.676386] ACTION: CLICK ON TASK CONTENT<br />
+                                [16:12:57.676447] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:12:57.762398] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:12:57.771578] Found element div<br />
+                                [16:12:57.774185] Click on element div<br />
+                                [16:12:58.102309] ACTION: CLICK ON DATE PICKER CONTENT<br />
+                                [16:12:58.102372] Search for element By.name: date<br />
+                                [16:12:58.185803] Search for element By.name: date<br />
+                                [16:12:58.195268] Found element input<br />
+                                [16:12:58.198727] Change value of input: 2019-02-15<br/>
+<br />
+                                [16:12:58.240375] Changed element input<br />
+                                [16:12:58.240413] ACTION: CLICK ON SELECT TIME FIELD<br />
+                                [16:12:58.240441] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(5)<br />
+                                [16:12:58.31686] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(5)<br />
+                                [16:12:58.324576] Found element option<br />
+                                [16:12:58.327251] Click on element option<br />
+                                [16:12:58.553688] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(5)<br />
+                                [16:12:58.560768] Found element option<br />
+                                [16:12:58.569183] ACTION: CLICK ON COMMENT FIELD<br />
+                                [16:12:58.569224] Search for element By.name: comment<br />
+                                [16:12:58.651159] Search for element By.name: comment<br />
+                                [16:12:58.661738] Found element textarea<br />
+                                [16:12:58.664884] Click on element textarea<br />
+                                [16:12:58.887249] ACTION: CLICK ON CREATE TASK BUTTON<br />
+                                [16:12:58.887297] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:12:58.974778] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:12:58.98387] Found element button<br />
+                                [16:12:58.987751] Click on element button<br />
+                                [16:12:59.246809] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:12:59.246851] Search for element By.cssSelector: div.confirm<br />
+                                [16:13:00.07539] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:13:00.075436] Search for element By.className: confirm__btn<br />
+                                [16:13:00.655262] Search for element By.className: confirm__btn<br />
+                                [16:13:00.741608] Search for element By.className: confirm__btn<br />
+                                [16:13:00.751722] Found element button<br />
+                                [16:13:00.754887] Click on element button<br />
+                                [16:13:00.976215] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:13:00.976262] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:13:00.983068] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:13:00.983126] Search for element By.className: day-task__time<br />
+                                [16:13:01.059575] Search for element By.className: day-task__time<br />
+                                [16:13:01.073594] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:13:01.073641] Search for element By.className: day-task__title<br />
+                                [16:13:01.079083] Search for element By.className: day-task__title<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToWeekTab
+      </td>
+  <td class="duration">
+    0.394s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:10:53.344608] ACTION: CLICK ON WEEK TAB<br />
+                                [16:10:53.344688] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(2) &gt; div:nth-child(1)<br />
+                                [16:10:53.438229] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(2) &gt; div:nth-child(1)<br />
+                                [16:10:53.467765] Found element div<br />
+                                [16:10:53.470441] Click on element div<br />
+                                [16:10:53.730553] ACTION: CHECK THAT THE WEEK DATE IS PRESENT ON THE PAGE<br />
+                                [16:10:53.730595] Search for element By.className: calendar-week-cell<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToMonthTab
+      </td>
+  <td class="duration">
+    0.468s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:12:33.151673] ACTION: CLICK ON MONTH TAB<br />
+                                [16:12:33.151721] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(3) &gt; div:nth-child(1)<br />
+                                [16:12:33.270469] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(3) &gt; div:nth-child(1)<br />
+                                [16:12:33.28132] Found element div<br />
+                                [16:12:33.285185] Click on element div<br />
+                                [16:12:33.599533] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:12:33.599569] Search for element By.className: calendar-month-cell<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToMonthTab
+      </td>
+  <td class="duration">
+    0.785s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:10:07.737821] ACTION: CLICK ON MONTH TAB<br />
+                                [16:10:07.737896] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(3) &gt; div:nth-child(1)<br />
+                                [16:10:07.811528] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(3) &gt; div:nth-child(1)<br />
+                                [16:10:07.820457] Found element div<br />
+                                [16:10:07.824639] Click on element div<br />
+                                [16:10:08.104302] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:10:08.104371] Search for element By.className: calendar-month-cell<br />
+                                [16:10:08.131349] ACTION: CLICK ON DAILY TAB<br />
+                                [16:10:08.131413] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(1) &gt; div:nth-child(1)<br />
+                                [16:10:08.246389] Search for element By.cssSelector: .sub-tabs-header__tab-list &gt; a:nth-child(1) &gt; div:nth-child(1)<br />
+                                [16:10:08.253812] Found element div<br />
+                                [16:10:08.25628] Click on element div<br />
+                                [16:10:08.514141] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:10:08.514226] Search for element By.className: calendar-day-cell<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createSetFixedHoursTask
+      </td>
+  <td class="duration">
+    7.662s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:17:38.513215] ACTION: CLICK ON CREATE TASK BUTTON ON THE PAGE<br />
+                                [16:17:38.51327] Search for element By.className: round-button<br />
+                                [16:17:38.600286] Search for element By.className: round-button<br />
+                                [16:17:38.609418] Found element a<br />
+                                [16:17:38.61547] Click on element a<br />
+                                [16:17:38.905823] ACTION: CLICK ON CATEGORIES CONTENT<br />
+                                [16:17:38.905885] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:17:39.632655] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:17:39.72064] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:17:39.730188] Found element div<br />
+                                [16:17:39.737254] Click on element div<br />
+                                [16:17:39.999224] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:17:39.999264] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:17:40.575672] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:17:40.666912] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:17:40.676203] Found element div<br />
+                                [16:17:40.69177] ACTION: CLICK ON TASK CONTENT<br />
+                                [16:17:40.691828] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:17:40.780592] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:17:40.789165] Found element div<br />
+                                [16:17:40.791269] Click on element div<br />
+                                [16:17:41.105805] ACTION: CLICK ON SET FIXED HOURS TAB<br />
+                                [16:17:41.105855] Search for element By.cssSelector: a.query-link:nth-child(2)<br />
+                                [16:17:41.189426] Search for element By.cssSelector: a.query-link:nth-child(2)<br />
+                                [16:17:41.197475] Found element a<br />
+                                [16:17:41.200295] Click on element a<br />
+                                [16:17:41.466534] ACTION: CLICK ON DATE PICKER CONTENT<br />
+                                [16:17:41.466574] Search for element By.name: date<br />
+                                [16:17:41.553836] Search for element By.name: date<br />
+                                [16:17:41.563401] Found element input<br />
+                                [16:17:41.568602] Change value of input: 2019-02-15<br/>
+<br />
+                                [16:17:41.623309] Changed element input<br />
+                                [16:17:41.623328] ACTION: CLICK ON SELECT FIXED HOURS FIELD<br />
+                                [16:17:41.623349] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:17:41.702123] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:17:41.709071] Found element div<br />
+                                [16:17:41.711318] Click on element div<br />
+                                [16:17:41.977883] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:17:41.97791] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:17:41.990519] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:17:42.002569] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:17:42.027687] Click on element div<br />
+                                [16:17:42.287388] Search for element By.className: create-task-form-struct__block<br />
+                                [16:17:42.366504] Search for element By.className: create-task-form-struct__block<br />
+                                [16:17:42.374916] Found element div<br />
+                                [16:17:42.377758] Click on element div<br />
+                                [16:17:42.625068] ACTION: CLICK ON SELECT FIXED HOURS FIELD<br />
+                                [16:17:42.62513] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:17:42.71433] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:17:42.722088] Found element div<br />
+                                [16:17:42.724638] Click on element div<br />
+                                [16:17:42.969489] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:17:42.985025] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:17:43.016161] Click on element div<br />
+                                [16:17:43.260396] ACTION: CLICK ON COMMENT FIELD<br />
+                                [16:17:43.260463] Search for element By.name: comment<br />
+                                [16:17:43.349403] Search for element By.name: comment<br />
+                                [16:17:43.357925] Found element textarea<br />
+                                [16:17:43.361083] Click on element textarea<br />
+                                [16:17:43.622993] ACTION: CLICK ON CREATE TASK BUTTON<br />
+                                [16:17:43.623035] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:17:43.717889] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:17:43.729468] Found element button<br />
+                                [16:17:43.73342] Click on element button<br />
+                                [16:17:43.975746] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:17:43.975773] Search for element By.cssSelector: div.confirm<br />
+                                [16:17:44.974566] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:17:44.974603] Search for element By.className: confirm__btn<br />
+                                [16:17:45.55989] Search for element By.className: confirm__btn<br />
+                                [16:17:45.659023] Search for element By.className: confirm__btn<br />
+                                [16:17:45.669423] Found element button<br />
+                                [16:17:45.672675] Click on element button<br />
+                                [16:17:45.897873] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:17:45.897907] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:17:45.910653] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:17:45.910706] Search for element By.className: day-task__time<br />
+                                [16:17:45.996382] Search for element By.className: day-task__time<br />
+                                [16:17:46.018283] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:17:46.018321] Search for element By.className: day-task__time<br />
+                                [16:17:46.102078] Search for element By.className: day-task__time<br />
+                                [16:17:46.120898] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:17:46.120944] Search for element By.className: day-task__title<br />
+                                [16:17:46.127275] Search for element By.className: day-task__title<br />
+                                [16:17:46.147618] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:17:46.147666] Search for element By.className: day-task__title<br />
+                                [16:17:46.154628] Search for element By.className: day-task__title<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createSetFixedHoursTask
+      </td>
+  <td class="duration">
+    6.258s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:11:39.297868] ACTION: CLICK ON CREATE TASK BUTTON ON THE PAGE<br />
+                                [16:11:39.297947] Search for element By.className: round-button<br />
+                                [16:11:39.398252] Search for element By.className: round-button<br />
+                                [16:11:39.417795] Found element a<br />
+                                [16:11:39.421022] Click on element a<br />
+                                [16:11:39.706233] ACTION: CLICK ON CATEGORIES CONTENT<br />
+                                [16:11:39.706283] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:11:40.300293] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:11:40.40155] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:11:40.412375] Found element div<br />
+                                [16:11:40.415925] Click on element div<br />
+                                [16:11:40.657223] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:11:40.65727] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:11:41.241847] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:11:41.337018] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:11:41.347607] Found element div<br />
+                                [16:11:41.364963] ACTION: CLICK ON TASK CONTENT<br />
+                                [16:11:41.365026] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:11:41.448326] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:11:41.458785] Found element div<br />
+                                [16:11:41.461347] Click on element div<br />
+                                [16:11:41.795041] ACTION: CLICK ON SET TIME SLOT TAB<br />
+                                [16:11:41.795099] Search for element By.cssSelector: a.query-link:nth-child(3)<br />
+                                [16:11:41.885135] Search for element By.cssSelector: a.query-link:nth-child(3)<br />
+                                [16:11:41.894947] Found element a<br />
+                                [16:11:41.898864] Click on element a<br />
+                                [16:11:42.185189] ACTION: CLICK ON DATE PICKER CONTENT<br />
+                                [16:11:42.185257] Search for element By.name: date<br />
+                                [16:11:42.273114] Search for element By.name: date<br />
+                                [16:11:42.282565] Found element input<br />
+                                [16:11:42.28687] Change value of input: 2019-02-15<br/>
+<br />
+                                [16:11:42.332216] Changed element input<br />
+                                [16:11:42.332248] ACTION: CLICK ON SELECT FIXED HOURS FIELD<br />
+                                [16:11:42.332274] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:11:42.418683] Search for element By.cssSelector:&nbsp; div:nth-child(2) &gt; div &gt; div &gt; div.css-1aya2g8.multi-select__control &gt; div.css-1wy0on6.multi-select__indicators &gt; div.css-1ep9fjw.multi-select__indicator.multi-select__dropdown-indicator<br />
+                                [16:11:42.428596] Found element div<br />
+                                [16:11:42.431282] Click on element div<br />
+                                [16:11:42.687397] ACTION: CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE<br />
+                                [16:11:42.687456] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:11:42.697167] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:11:42.705757] Search for element By.xpath: //div[@role=&apos;option&apos;]<br />
+                                [16:11:42.736421] Click on element div<br />
+                                [16:11:42.996696] ACTION: CLICK ON COMMENT FIELD<br />
+                                [16:11:42.996744] Search for element By.name: comment<br />
+                                [16:11:43.073455] Search for element By.name: comment<br />
+                                [16:11:43.08052] Found element textarea<br />
+                                [16:11:43.082969] Click on element textarea<br />
+                                [16:11:43.309389] ACTION: CLICK ON CREATE TASK BUTTON<br />
+                                [16:11:43.309437] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:11:43.392624] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:11:43.402524] Found element button<br />
+                                [16:11:43.405345] Click on element button<br />
+                                [16:11:43.685678] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:11:43.685719] Search for element By.cssSelector: div.confirm<br />
+                                [16:11:44.526692] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:11:44.52674] Search for element By.className: confirm__btn<br />
+                                [16:11:45.098114] Search for element By.className: confirm__btn<br />
+                                [16:11:45.185396] Search for element By.className: confirm__btn<br />
+                                [16:11:45.194339] Found element button<br />
+                                [16:11:45.197024] Click on element button<br />
+                                [16:11:45.415895] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:11:45.415931] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:11:45.42063] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:11:45.420674] Search for element By.className: day-task__time<br />
+                                [16:11:45.511002] Search for element By.className: day-task__time<br />
+                                [16:11:45.527721] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:11:45.527777] Search for element By.className: day-task__title<br />
+                                [16:11:45.54122] Search for element By.className: day-task__title<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createImmediateTask
+      </td>
+  <td class="duration">
+    5.232s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:15:04.667345] ACTION: CLICK ON CREATE TASK BUTTON ON THE PAGE<br />
+                                [16:15:04.667403] Search for element By.className: round-button<br />
+                                [16:15:04.788564] Search for element By.className: round-button<br />
+                                [16:15:04.819062] Found element a<br />
+                                [16:15:04.834598] Click on element a<br />
+                                [16:15:05.165326] ACTION: CLICK ON CATEGORIES CONTENT<br />
+                                [16:15:05.165366] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:15:05.77245] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:15:05.860387] Search for element By.cssSelector: .categories-board__category-block &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:15:05.870486] Found element div<br />
+                                [16:15:05.873963] Click on element div<br />
+                                [16:15:06.123123] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:15:06.123194] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:15:06.776177] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:15:06.866499] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)&gt;div:nth-child(1)<br />
+                                [16:15:06.874758] Found element div<br />
+                                [16:15:06.888848] ACTION: CLICK ON TASK CONTENT<br />
+                                [16:15:06.888882] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:15:06.973194] Search for element By.cssSelector: .categories-board__details-block--transform &gt; div.categories-board__block-body &gt; div &gt; div &gt; div:nth-child(1)<br />
+                                [16:15:06.98177] Found element div<br />
+                                [16:15:06.984644] Click on element div<br />
+                                [16:15:07.30782] ACTION: CLICK ON SET TIME SLOT TAB<br />
+                                [16:15:07.307884] Search for element By.cssSelector: a.query-link:nth-child(4)<br />
+                                [16:15:07.395478] Search for element By.cssSelector: a.query-link:nth-child(4)<br />
+                                [16:15:07.402004] Found element a<br />
+                                [16:15:07.404263] Click on element a<br />
+                                [16:15:07.656017] ACTION: CLICK ON CREATE TASK BUTTON<br />
+                                [16:15:07.656069] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:15:07.738304] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:15:07.747026] Found element button<br />
+                                [16:15:07.749851] Click on element button<br />
+                                [16:15:08.014595] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:15:08.014622] Search for element By.cssSelector: div.confirm<br />
+                                [16:15:08.870642] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:15:08.870706] Search for element By.className: confirm__btn<br />
+                                [16:15:09.443538] Search for element By.className: confirm__btn<br />
+                                [16:15:09.527898] Search for element By.className: confirm__btn<br />
+                                [16:15:09.536757] Found element button<br />
+                                [16:15:09.539932] Click on element button<br />
+                                [16:15:09.760797] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:15:09.760823] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:15:09.766968] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:15:09.767015] Search for element By.className: day-task__title<br />
+                                [16:15:09.773223] Search for element By.className: day-task__title<br />
+                                [16:15:09.7945] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:15:09.794554] Search for element By.className: day-task__time<br />
+                                [16:15:09.882797] Search for element By.className: day-task__time<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  editTask
+      </td>
+  <td class="duration">
+    3.883s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:16:21.827977] ACTION: CLICK ON TASKS<br />
+                                [16:16:21.828052] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:16:21.918069] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:16:21.927712] Found element div<br />
+                                [16:16:21.931353] Click on element div<br />
+                                [16:16:22.215062] ACTION: CLICK ON THREE POINTS BUTTON<br />
+                                [16:16:22.215114] Search for element By.className: page-title__side-block<br />
+                                [16:16:22.300329] Search for element By.className: page-title__side-block<br />
+                                [16:16:22.307418] Found element div<br />
+                                [16:16:22.309807] Click on element div<br />
+                                [16:16:22.529713] ACTION: CLICK ON EDIT TASK LINK<br />
+                                [16:16:22.529782] Search for element By.cssSelector: div.dropdown-actions__body &gt; div:nth-child(2) &gt; button<br />
+                                [16:16:22.622334] Search for element By.cssSelector: div.dropdown-actions__body &gt; div:nth-child(2) &gt; button<br />
+                                [16:16:22.631136] Found element button<br />
+                                [16:16:22.634221] Click on element button<br />
+                                [16:16:22.930241] ACTION: CLICK ON DATE PICKER CONTENT<br />
+                                [16:16:22.930295] Search for element By.name: date<br />
+                                [16:16:23.012104] Search for element By.name: date<br />
+                                [16:16:23.01897] Found element input<br />
+                                [16:16:23.021318] Change value of input: 2019-02-16<br/>
+<br />
+                                [16:16:23.067708] Changed element input<br />
+                                [16:16:23.067741] ACTION: CLICK ON SELECT TIME FIELD<br />
+                                [16:16:23.067775] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(8)<br />
+                                [16:16:23.153911] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(8)<br />
+                                [16:16:23.162483] Found element option<br />
+                                [16:16:23.167092] Click on element option<br />
+                                [16:16:23.393352] Search for element By.cssSelector: .simple-select__select&gt;option:nth-child(8)<br />
+                                [16:16:23.403681] Found element option<br />
+                                [16:16:23.41283] ACTION: CLICK ON CREATE TASK BUTTON<br />
+                                [16:16:23.412866] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:16:23.486269] Search for element By.className: rectangular-button__wrapper<br />
+                                [16:16:23.492985] Found element button<br />
+                                [16:16:23.495192] Click on element button<br />
+                                [16:16:23.725996] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:16:23.726038] Search for element By.cssSelector: div.confirm<br />
+                                [16:16:24.68054] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:16:24.680581] Search for element By.className: confirm__btn<br />
+                                [16:16:25.257078] Search for element By.className: confirm__btn<br />
+                                [16:16:25.345427] Search for element By.className: confirm__btn<br />
+                                [16:16:25.35388] Found element button<br />
+                                [16:16:25.356735] Click on element button<br />
+                                [16:16:25.577112] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:16:25.577134] Search for element By.cssSelector: .calendar-day-grid.calendar__grid-wrapper &gt; div:nth-child(3) &gt; p<br />
+                                [16:16:25.581732] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:16:25.581754] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(4)&gt;div<br />
+                                [16:16:25.586282] ACTION: GET DATE TASK TIME TEXT<br />
+                                [16:16:25.586322] Search for element By.className: day-task__time<br />
+                                [16:16:25.661772] Search for element By.className: day-task__time<br />
+                                [16:16:25.681717] ACTION: GET TASK CONTENT TEXT<br />
+                                [16:16:25.681771] Search for element By.className: day-task__title<br />
+                                [16:16:25.691183] Search for element By.className: day-task__title<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  deleteTask
+      </td>
+  <td class="duration">
+    3.258s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:15:36.924334] ACTION: CLICK ON TASKS<br />
+                                [16:15:36.924397] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:15:37.012134] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:15:37.019817] Found element div<br />
+                                [16:15:37.022195] Click on element div<br />
+                                [16:15:37.284385] ACTION: CLICK ON THREE POINTS BUTTON<br />
+                                [16:15:37.284449] Search for element By.className: page-title__side-block<br />
+                                [16:15:37.37026] Search for element By.className: page-title__side-block<br />
+                                [16:15:37.380004] Found element div<br />
+                                [16:15:37.383147] Click on element div<br />
+                                [16:15:37.602433] ACTION: CLICK ON DELETE TASK LINK<br />
+                                [16:15:37.602482] Search for element By.cssSelector: div.dropdown-actions__body &gt; div:nth-child(1) &gt; button<br />
+                                [16:15:37.691768] Search for element By.cssSelector: div.dropdown-actions__body &gt; div:nth-child(1) &gt; button<br />
+                                [16:15:37.704546] Found element button<br />
+                                [16:15:37.708123] Click on element button<br />
+                                [16:15:37.938795] ACTION: CHECK THAT THE DELETE TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:15:37.938824] Search for element By.className: popup__modal--open<br />
+                                [16:15:37.950522] ACTION: FILL IN REASON FIELD<br />
+                                [16:15:37.950559] Search for element By.name: journal_comment<br />
+                                [16:15:38.038104] Search for element By.name: journal_comment<br />
+                                [16:15:38.051527] Found element textarea<br />
+                                [16:15:38.055286] Change value of textarea: Test<br/>
+<br />
+                                [16:15:38.102559] Changed element textarea<br />
+                                [16:15:38.102584] ACTION: CLICK ON YES BUTTON<br />
+                                [16:15:38.102612] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:15:38.184713] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:15:38.192885] Found element button<br />
+                                [16:15:38.195364] Click on element button<br />
+                                [16:15:38.417773] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:15:38.417814] Search for element By.cssSelector: div.confirm<br />
+                                [16:15:39.278283] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:15:39.278323] Search for element By.className: confirm__btn<br />
+                                [16:15:39.853207] Search for element By.className: confirm__btn<br />
+                                [16:15:39.933647] Search for element By.className: confirm__btn<br />
+                                [16:15:39.943433] Found element button<br />
+                                [16:15:39.947091] Click on element button<br />
+                                [16:15:40.174878] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:15:40.174924] Search for element By.cssSelector: .calendar-day-grid.calendar__grid-wrapper &gt; div:nth-child(3) &gt; p<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  undoneTask
+      </td>
+  <td class="duration">
+    3.278s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:08:28.036346] ACTION: CLICK ON TASKS<br />
+                                [16:08:28.0364] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:08:28.110726] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:08:28.121298] Found element div<br />
+                                [16:08:28.124167] Click on element div<br />
+                                [16:08:28.385089] ACTION: CLICK ON UNDONE TASK BUTTON<br />
+                                [16:08:28.385168] Search for element By.className: rectangular-button__wrapper--white<br />
+                                [16:08:28.393265] Search for element By.className: rectangular-button__wrapper--white<br />
+                                [16:08:28.404329] Found element button<br />
+                                [16:08:28.408331] Click on element button<br />
+                                [16:08:28.636375] ACTION: CHECK THAT THE DELETE TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:08:28.636432] Search for element By.className: popup__modal--open<br />
+                                [16:08:28.642259] ACTION: FILL IN REASON FIELD<br />
+                                [16:08:28.642313] Search for element By.name: journal_comment<br />
+                                [16:08:28.735779] Search for element By.name: journal_comment<br />
+                                [16:08:28.745354] Found element textarea<br />
+                                [16:08:28.748631] Change value of textarea: Test<br/>
+<br />
+                                [16:08:28.798108] Changed element textarea<br />
+                                [16:08:28.798148] ACTION: CLICK ON YES BUTTON<br />
+                                [16:08:28.798175] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:08:28.888583] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:08:28.897537] Found element button<br />
+                                [16:08:28.901837] Click on element button<br />
+                                [16:08:29.116861] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:08:29.116927] Search for element By.cssSelector: div.confirm<br />
+                                [16:08:30.029867] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:08:30.029955] Search for element By.className: confirm__btn<br />
+                                [16:08:30.614606] Search for element By.className: confirm__btn<br />
+                                [16:08:30.70154] Search for element By.className: confirm__btn<br />
+                                [16:08:30.710639] Found element button<br />
+                                [16:08:30.713229] Click on element button<br />
+                                [16:08:30.942539] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:08:30.949919] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:08:30.960821] Found element span<br />
+                                [16:08:30.974136] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:08:30.974196] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:08:31.059939] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:08:31.069614] Found element p<br />
+                                [16:08:31.073887] Click on element p<br />
+                                [16:08:31.09842] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:08:31.098466] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  confirmTask
+      </td>
+  <td class="duration">
+    3.380s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:13:27.53379] ACTION: CLICK ON TASKS<br />
+                                [16:13:27.533872] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:13:27.612545] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                                [16:13:27.620893] Found element div<br />
+                                [16:13:27.623298] Click on element div<br />
+                                [16:13:27.879297] ACTION: CLICK ON CONFIRM TASK BUTTON<br />
+                                [16:13:27.879352] Search for element By.cssSelector: .task-details__buttons-group &gt; button:nth-child(2)<br />
+                                [16:13:27.968347] Search for element By.cssSelector: .task-details__buttons-group &gt; button:nth-child(2)<br />
+                                [16:13:27.977939] Found element button<br />
+                                [16:13:27.981565] Click on element button<br />
+                                [16:13:28.212365] ACTION: CHECK THAT THE DELETE TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:13:28.212417] Search for element By.className: popup__modal--open<br />
+                                [16:13:28.219174] ACTION: FILL IN REASON FIELD<br />
+                                [16:13:28.21922] Search for element By.name: journal_comment<br />
+                                [16:13:28.309225] Search for element By.name: journal_comment<br />
+                                [16:13:28.323752] Found element textarea<br />
+                                [16:13:28.326834] Change value of textarea: Test<br/>
+<br />
+                                [16:13:28.377817] Changed element textarea<br />
+                                [16:13:28.377856] ACTION: CLICK ON YES BUTTON<br />
+                                [16:13:28.377892] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:13:28.461577] Search for element By.cssSelector: .confirm-popup__button-section &gt; div:nth-child(2) &gt; button<br />
+                                [16:13:28.468863] Found element button<br />
+                                [16:13:28.471571] Click on element button<br />
+                                [16:13:28.699497] ACTION: CHECK THAT THE SUCCESSFULLY CREATED NEW TASK POPUP IS PRESENT ON THE PAGE<br />
+                                [16:13:28.699545] Search for element By.cssSelector: div.confirm<br />
+                                [16:13:29.599556] ACTION: CLICK ON CLOSE POPUP BUTTON<br />
+                                [16:13:29.599594] Search for element By.className: confirm__btn<br />
+                                [16:13:30.176283] Search for element By.className: confirm__btn<br />
+                                [16:13:30.273292] Search for element By.className: confirm__btn<br />
+                                [16:13:30.283811] Found element button<br />
+                                [16:13:30.288939] Click on element button<br />
+                                [16:13:30.517799] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:13:30.526722] Search for element By.cssSelector: div:nth-child(1) &gt; span.info-card__value.info-card__value--default<br />
+                                [16:13:30.537935] Found element span<br />
+                                [16:13:30.555586] ACTION: CLICK ON BACK BUTTON<br />
+                                [16:13:30.555644] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:13:30.631503] Search for element By.xpath: //p[text()=&apos;Back&apos;]<br />
+                                [16:13:30.640383] Found element p<br />
+                                [16:13:30.644157] Click on element p<br />
+                                [16:13:30.673852] ACTION: CHECK THAT THE TASK IS PRESENT ON THE PAGE<br />
+                                [16:13:30.673884] Search for element By.cssSelector: .calendar-day-grid &gt; div:nth-child(3)&gt;div<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToCarePage
+      </td>
+  <td class="duration">
+    0.373s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:13:54.700403] ACTION: CLICK ON CARE TAB<br />
+                                [16:13:54.700451] Search for element By.cssSelector: .base-tabs-header__tab-list&gt;a:nth-child(2)<br />
+                                [16:13:54.784433] Search for element By.cssSelector: .base-tabs-header__tab-list&gt;a:nth-child(2)<br />
+                                [16:13:54.800706] Found element a<br />
+                                [16:13:54.803791] Click on element a<br />
+                                [16:13:55.061208] ACTION: CHECK THAT THE WEEK DATE IS PRESENT ON THE PAGE<br />
+                                [16:13:55.061244] Search for element By.cssSelector: .list&gt;.list--content&gt;.card-link-item<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  goToCarePage
+      </td>
+  <td class="duration">
+    2.824s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [16:12:08.356938] ACTION: CLICK ON CARE TAB<br />
+                                [16:12:08.357005] Search for element By.cssSelector: .base-tabs-header__tab-list&gt;a:nth-child(2)<br />
+                                [16:12:08.451103] Search for element By.cssSelector: .base-tabs-header__tab-list&gt;a:nth-child(2)<br />
+                                [16:12:08.460921] Found element a<br />
+                                [16:12:08.464493] Click on element a<br />
+                                [16:12:08.72483] ACTION: CHECK THAT THE WEEK DATE IS PRESENT ON THE PAGE<br />
+                                [16:12:08.72487] Search for element By.cssSelector: .list&gt;.list--content&gt;.card-link-item<br />
+                                [16:12:08.737644] ACTION: CLICK ON REFRESH BUTTON<br />
+                                [16:12:08.7377] Search for element By.cssSelector: .icon-btn-modified.icon-btn-modified--title-first&gt;p<br />
+                                [16:12:08.822569] Search for element By.cssSelector: .icon-btn-modified.icon-btn-modified--title-first&gt;p<br />
+                                [16:12:08.832181] Found element p<br />
+                                [16:12:08.834623] Click on element p<br />
+                                [16:12:09.673834] ACTION: CHECK THAT THE WEEK DATE IS PRESENT ON THE PAGE<br />
+                                [16:12:09.673867] Search for element By.cssSelector: .list&gt;.list--content&gt;.card-link-item<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

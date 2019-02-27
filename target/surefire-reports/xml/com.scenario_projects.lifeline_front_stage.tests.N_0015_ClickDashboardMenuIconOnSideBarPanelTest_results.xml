@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="all-tests [Firefox]"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.127">
+  <properties />
+  
+  
+            <testcase name="goToDashboardPage" time="2.127" classname="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest" />
+      
+</testsuite>
