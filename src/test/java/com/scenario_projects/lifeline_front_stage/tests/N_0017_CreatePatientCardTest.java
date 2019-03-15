@@ -6,7 +6,6 @@ import com.scenario_projects.lifeline_front_stage.actionHelpers.LoginHelper;
 import com.scenario_projects.lifeline_front_stage.dataProvider.LoginDataProvider;
 import com.scenario_projects.lifeline_front_stage.model.PatientCardData;
 import com.scenario_projects.lifeline_front_stage.pages.SideBarPatientDetailPagePanel;
-import com.scenario_projects.lifeline_front_stage.utils.RetryAnalyzer;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +20,7 @@ public class N_0017_CreatePatientCardTest extends BaseTest {
         login.login(LoginDataProvider.email, LoginDataProvider.password);
     }
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
+    @Test//(retryAnalyzer = RetryAnalyzer.class)
     public void createdPatientCard() {
         //Create a new patient
         CreateNewPatientHelper newPatient = new CreateNewPatientHelper(driver);

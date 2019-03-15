@@ -26,6 +26,7 @@ public class N_0005_LogOutTest extends BaseTest {
 
         sideBarPanel.clickLogoutLink();
 
+        Assert.fail();
         LoginPage loginPage = new LoginPage(driver);
         Assert.assertNotNull(loginPage.resetPasswordButtonIsPresent(), "Failed! Login page is not loaded!");
     }

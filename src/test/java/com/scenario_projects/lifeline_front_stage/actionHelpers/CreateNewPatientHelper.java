@@ -10,16 +10,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class CreateNewPatientHelper {
-
     protected WebDriver driver;
 
     public CreateNewPatientHelper(WebDriver driver) {
         this.driver = driver;
     }
-
-    PatientCardData newPatient = new PatientCardData(PatientCardData.generate().getName(), PatientCardData.generate().getUnit(),
-            PatientCardData.generate().getBirthDate(), PatientCardData.generate().getGender(), PatientCardData.generate().getCountry(),
-            PatientCardData.generate().getPostCode(), PatientCardData.generate().getAddress());
 
     public void createNewPatientHelper() {
 
@@ -36,6 +31,9 @@ public class CreateNewPatientHelper {
         //Check that create new patient page is loaded
         CreateNewPatientPage createNewPatientPage = new CreateNewPatientPage(driver);
         Assert.assertTrue(createNewPatientPage.patientCardsIsPresent(), "Failed! Create new patient page isn't loaded!");
+
+        PatientCardData newPatient = new PatientCardData("New patient " + System.currentTimeMillis(), createNewPatientPage.getUnitType(),
+                "02031975", createNewPatientPage.getGenderType(), "UKRAINE", "643993", "Popova street, 5");
 
         //Fill in required field
         createNewPatientPage.fillFullNameField(newPatient.getName());

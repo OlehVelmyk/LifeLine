@@ -8,7 +8,6 @@
         </packages>
     </test>
 
-
     <!--Configure tests for other browser type;-->
     <test name="all-tests [Firefox]">
         <parameter name="browser" value="firefox"/>
@@ -16,123 +15,11 @@
             <package name="com.scenario_projects.lifeline_front_stage.tests"/>
         </packages>
     </test>
+
+    <test name="all-tests [Opera]">
+        <parameter name="browser" value="opera"/>
+        <packages>
+            <package name="com.scenario_projects.lifeline_front_stage.tests"/>
+        </packages>
+    </test>
 </suite>
-
-<!--<suite name="Tests" verbose="1">
-    <test name="Tests [Chrome]">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest"/>
-        </classes>
-    </test>-->
-
-
-    <!--Configure tests for other browser types-->
-    <!--<test name="Tests [Firefox]">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" />
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest"/>
-            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest"/>
-        </classes>
-    </test>-->
-
-    <!-- <test name="Tests [Opera]">
-         <parameter name="browser" value="opera"/>
-         <classes>
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest" />&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest"/>&ndash;&gt;
-             &lt;!&ndash;<class name="com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest"/>&ndash;&gt;
-             <class name="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest"/>
-         </classes>
-     </test>-->
-
-    <!--<test name="Create New Order [IE]" >
-        <parameter name="browser" value="ie" />
-        <classes>
-            <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
-        </classes>
-    </test>-->
-<!--</suite>-->

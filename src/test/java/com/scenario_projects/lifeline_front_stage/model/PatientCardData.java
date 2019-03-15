@@ -47,15 +47,4 @@ public class PatientCardData {
     public static String getAddress() {
         return address;
     }
-
-    public static PatientCardData generate() {
-        return new PatientCardData(
-                "New patient " + System.currentTimeMillis(),
-                "Cardiological ICU",
-                "02031975",
-                "Male",
-                "UKRAINE",
-                "643993",
-                "Popova street, 5");
-    }
 }

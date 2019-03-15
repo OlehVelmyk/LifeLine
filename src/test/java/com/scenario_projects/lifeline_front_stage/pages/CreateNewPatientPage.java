@@ -3,6 +3,9 @@ package com.scenario_projects.lifeline_front_stage.pages;
 import com.scenario_projects.lifeline_front_stage.logging.CustomReporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class CreateNewPatientPage extends BasePage {
     private final By proceedButton = By.xpath("//button[text()='Proceed']");
@@ -12,7 +15,7 @@ public class CreateNewPatientPage extends BasePage {
     private final By postCodeField = By.name("post_code");
     private final By addressField = By.name("address");
     private final By unitType = By.xpath("//option[@value='1']");
-    private final By genderType = By.xpath("//option[text()='Male']");
+    private final By genderType = By.xpath("//option[@value='M']");
     private final By country = By.xpath("//select[@name='country']/option[@value='UKR']");
     private final By saveButton = By.xpath("//button[text()='Save']");
 
@@ -55,6 +58,12 @@ public class CreateNewPatientPage extends BasePage {
         driver.findElement(unitType).click();
     }
 
+    public String getUnitType() {
+        CustomReporter.logAction("GET UNIT NAME FROM UNIT FIELD");
+        waitForClickable(unitType);
+        return driver.findElement(unitType).getText();
+    }
+
     public void fillBirthDateField(String browserName) {
         CustomReporter.logAction("FILL IN BIRTH DATE FIELD");
         waitForClickable(birthDateField);
@@ -71,7 +80,15 @@ public class CreateNewPatientPage extends BasePage {
     public void selectGenderType() {
         CustomReporter.logAction("SELECT GENDER FROM GENDER FIELD");
         waitForClickable(genderType);
-        driver.findElement(genderType).click();
+        List<WebElement> list = driver.findElements(genderType);
+        list.get(0).click();
+    }
+
+    public String getGenderType() {
+        CustomReporter.logAction("GET GENDER NAME FROM GENDER FIELD");
+        waitForClickable(genderType);
+        List<WebElement> list = driver.findElements(genderType);
+        return list.get(0).getText();
     }
 
     public void selectCountry() {

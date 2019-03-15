@@ -54,16 +54,4 @@ public class DataConverter {
         Assert.assertTrue(qtyMatcher.find(), "Unable to extract Due tasks value!");
         return qtyMatcher.group();
     }
-
-    /*public static String parseMonthDate(String label) {
-        Matcher qtyMatcher = Pattern.compile("\\d+ - \\d+").matcher(label);
-        Assert.assertTrue(qtyMatcher.find(), "Unable to extract open tasks value!");
-        return qtyMatcher.group();
-    }*/
-
-    /*public static int parseTwoDate(String label) {
-        Matcher qtyMatcher = Pattern.compile("\\d+").matcher(label);
-        Assert.assertTrue(qtyMatcher.find(), "Unable to extract open tasks value!");
-        return Integer.parseInt(qtyMatcher.group());
-    }*/
 }
