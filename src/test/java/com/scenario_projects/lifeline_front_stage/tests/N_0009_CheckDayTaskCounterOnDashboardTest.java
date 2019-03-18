@@ -1,5 +1,6 @@
 package com.scenario_projects.lifeline_front_stage.tests;
 
+import com.scenario_projects.lifeline_front_stage.actionHelpers.CountDayTaskNumber;
 import com.scenario_projects.lifeline_front_stage.actionHelpers.LoginHelper;
 import com.scenario_projects.lifeline_front_stage.dataProvider.LoginDataProvider;
 import com.scenario_projects.lifeline_front_stage.pages.DashBoardPage;
@@ -35,7 +36,8 @@ public class N_0009_CheckDayTaskCounterOnDashboardTest extends BaseTest {
         Assert.assertTrue(patientsPage.filterButtonActiveIsPresent(), "Failed! Patients page isn't loaded!");
 
         //Get counter tasks day at the Patients detail page
-        dailyTaskCounterFromPatientPage = patientsPage.countDayTaskNumberOnPatientsDetailPage();
+        CountDayTaskNumber countDayTaskNumber = new CountDayTaskNumber(driver);
+        dailyTaskCounterFromPatientPage = countDayTaskNumber.countDayTaskNumberOnPatientsDetailPage();
 
         //Check that counter tasks day at the Dashboard equals counter tasks day at the Patients page
         Assert.assertEquals(dailyTaskCounterFromPatientPage, dailyTaskCounterFromDashboard);

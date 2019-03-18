@@ -24,6 +24,10 @@ public class TasksPage extends BasePage {
         super(driver);
     }
 
+    public By getTaskStatus() {
+        return taskStatus;
+    }
+
     public boolean editTaskPopupIsPresent() {
         CustomReporter.logAction("CHECK THAT THE DELETE TASK POPUP IS PRESENT ON THE PAGE");
         return driver.findElements(editTaskPopup).size() > 0;
@@ -99,24 +103,13 @@ public class TasksPage extends BasePage {
         }
     }
 
-    public int getTasksForDayNumber(int tasksNumber) {
-        waitForLocated(taskStatus);
-        WebElement taskStatusText = driver.findElement(taskStatus);
-        if (taskStatusText.getText().equalsIgnoreCase("Done") || taskStatusText.getText().equalsIgnoreCase("Undone")) {
-            new PatientDetailPlanningPage(driver).clickBackButton();
-        } else {
-            tasksNumber += 1;
-            new PatientDetailPlanningPage(driver).clickBackButton();
-        }
-        return tasksNumber;
-    }
-
     public boolean checkTaskStatus(String taskStatusName) {
         waitForLocated(taskStatus);
         WebElement taskStatusText = driver.findElement(taskStatus);
         if (taskStatusText.getText().equalsIgnoreCase(taskStatusName)) {
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
 }

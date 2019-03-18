@@ -29,6 +29,10 @@ public class PatientDetailPlanningPage extends BasePage {
         super(driver);
     }
 
+    public By getListDayTasks() {
+        return listDayTasks;
+    }
+
     public boolean calendarDateIsPresent() {
         CustomReporter.logAction("CHECK THAT THE CALENDAR DATE IS PRESENT ON THE PAGE");
         return driver.findElements(calendarDate).size() > 0;
@@ -124,24 +128,5 @@ public class PatientDetailPlanningPage extends BasePage {
         CustomReporter.logAction("CLICK ON MONTH TAB");
         waitForClickable(monthTab);
         driver.findElement(monthTab).click();
-    }
-
-    public int countingTasksNumberForToday() {
-        int tasksNumber = 0;
-        waitForLocated(listDayTasks);
-        TasksPage taskPage = new TasksPage(driver);
-        List<WebElement> list = driver.findElements(listDayTasks);
-        for (int i = 0; i < list.size(); i++) {
-            if (i == 0) {
-                list.get(i).click();
-                tasksNumber = taskPage.getTasksForDayNumber(tasksNumber);
-            } else {
-                waitForClickable(listDayTasks);
-                List<WebElement> list1 = driver.findElements(listDayTasks);
-                list1.get(i).click();
-                tasksNumber = taskPage.getTasksForDayNumber(tasksNumber);
-            }
-        }
-        return tasksNumber;
     }
 }

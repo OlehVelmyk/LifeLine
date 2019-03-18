@@ -1,11 +1,8 @@
 package com.scenario_projects.lifeline_front_stage.pages;
 
 import com.scenario_projects.lifeline_front_stage.logging.CustomReporter;
-import com.scenario_projects.lifeline_front_stage.model.PatientCardData;
-import com.scenario_projects.lifeline_front_stage.utils.DataConverter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -24,6 +21,22 @@ public class PatientsPage extends BasePage {
 
     public PatientsPage(WebDriver driver) {
         super(driver);
+    }
+
+    public By getPatientCards() {
+        return patientCards;
+    }
+
+    public By getTasksCounter() {
+        return tasksCounter;
+    }
+
+    public By getFullNameField() {
+        return fullNameField;
+    }
+
+    public By getPaginationBlock() {
+        return paginationBlock;
     }
 
     public boolean filterButtonInactiveIsPresent() {
@@ -70,97 +83,10 @@ public class PatientsPage extends BasePage {
         driver.findElement(closePopUpButton).click();
     }
 
-    public int countDayTaskNumberOnPatientsDetailPage() {
-        int newTasksNumber = 0;
-        if (new PaginationPage(driver).paginationBlockIsPresent(paginationBlock)) {
-            newTasksNumber = getDayTaskCounterFromPatientCardOnPatientsDetailPage(newTasksNumber);
-            CustomReporter.logAction("GET PAGINATION PAGES LIST");
-            waitForClickable(paginationBlock);
-            List<WebElement> list2 = driver.findElements(paginationBlock);
-            for (int i = list2.size() - 3; i > 0; i--) {
-                new PaginationPage(driver).clickPaginationItems(list2, i);
-                newTasksNumber = getDayTaskCounterFromPatientCardOnPatientsDetailPage(newTasksNumber);
-            }
-        } else {
-            newTasksNumber = getDayTaskCounterFromPatientCardOnPatientsDetailPage(newTasksNumber);
-        }
-        CustomReporter.logAction("COUNT TASKS NUMBER FOR TODAY ON PATIENTS PAGE");
-        return newTasksNumber;
-    }
-
-    public int getDayTaskCounterFromPatientCardOnPatientsDetailPage(int newTasksNumber) {
-        int tasksNumber;
-        CustomReporter.logAction("GET PATIENTS CARDS LIST");
-        if (patientCardsIsPresent()) {
-            waitForClickable(patientCards);
-            List<WebElement> list = driver.findElements(patientCards);
-            for (int i = 0; i < list.size(); i++) {
-                if (i == 0) {
-                    list.get(i).click();
-                    tasksNumber = new PatientDetailPlanningPage(driver).countingTasksNumberForToday();
-                    new PatientDetailPlanningPage(driver).clickBackButton();
-                } else {
-                    try {
-                        clickOnThePatientsCard(i);
-                        tasksNumber = new PatientDetailPlanningPage(driver).countingTasksNumberForToday();
-                        new PatientDetailPlanningPage(driver).clickBackButton();
-                    } catch (WebDriverException ex) {
-                        clickFilterButtonActive();
-                        clickOnThePatientsCard(i);
-                        tasksNumber = new PatientDetailPlanningPage(driver).countingTasksNumberForToday();
-                        new PatientDetailPlanningPage(driver).clickBackButton();
-                    }
-                }
-                newTasksNumber += tasksNumber;
-            }
-        } else {
-            System.out.println("No tasks for today");
-            CustomReporter.logAction("NO TASKS FOR TODAY");
-        }
-        CustomReporter.logAction("COUNT TASKS NUMBER FOR TODAY ON PATIENTS DETAIL PAGE");
-        return newTasksNumber;
-    }
-
     public void clickOnThePatientsCard(int i) {
         waitForClickable(patientCards);
         List<WebElement> list1 = driver.findElements(patientCards);
         list1.get(i).click();
-    }
-
-    public int getDueTasksCounterFromEachPatientsCard(int newTasksNumber) {
-        int tasksNumber;
-        CustomReporter.logAction("GET PATIENTS CARDS LIST");
-        if (patientCardsIsPresent()) {
-            waitForClickable(tasksCounter);
-            List<WebElement> list = driver.findElements(tasksCounter);
-            for (int i = 0; i < list.size(); i++) {
-                tasksNumber = DataConverter.parseSecondDigitValue(list.get(i).getText());
-                newTasksNumber += tasksNumber;
-            }
-        } else {
-            System.out.println("No due tasks");
-            CustomReporter.logAction("NO DUE TASKS");
-        }
-        CustomReporter.logAction("COUNT DUE NUMBER IN EACH PATIENTS CARD ON PATIENTS PAGE");
-        return newTasksNumber;
-    }
-
-    public int DueTasksNumberOnPatientsPage() {
-        int newTasksNumber = 0;
-        if (new PaginationPage(driver).paginationBlockIsPresent(paginationBlock)) {
-            newTasksNumber = getDueTasksCounterFromEachPatientsCard(newTasksNumber);
-            CustomReporter.logAction("GET PAGINATION PAGES LIST");
-            waitForClickable(paginationBlock);
-            List<WebElement> list2 = driver.findElements(paginationBlock);
-            for (int i = 2; i < list2.size() - 1; i++) {
-                new PaginationPage(driver).clickPaginationItems(list2, i);
-                newTasksNumber = getDueTasksCounterFromEachPatientsCard(newTasksNumber);
-            }
-        } else {
-            newTasksNumber = getDueTasksCounterFromEachPatientsCard(newTasksNumber);
-        }
-        CustomReporter.logAction("COUNT DUE TASKS NUMBER ON PATIENTS PAGE");
-        return newTasksNumber;
     }
 
     public void clickOnCreatedNewPatientCard() {
@@ -170,23 +96,6 @@ public class PatientsPage extends BasePage {
             System.out.println("No due tasks");
             CustomReporter.logAction("NO DUE TASKS");
         }
-    }
-
-    public int checkThatPatientCardIsDeleted() {
-        int count = 0;
-        String patientName;
-        if (patientCardsIsPresent()) {
-            waitForClickable(fullNameField);
-            List<WebElement> list = driver.findElements(fullNameField);
-            patientName = DataConverter.parsePatientFullName(list.get(0).getText());
-            if (patientName.equalsIgnoreCase(PatientCardData.getName())) {
-                count += 1;
-            }
-        } else {
-            System.out.println("No patient cards");
-            CustomReporter.logAction("NO PATIENT CARDS");
-        }
-        return count;
     }
 }
 

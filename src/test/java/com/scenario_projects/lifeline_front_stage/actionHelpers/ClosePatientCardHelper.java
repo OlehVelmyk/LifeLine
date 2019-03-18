@@ -30,7 +30,8 @@ public class ClosePatientCardHelper {
 
         patientPage.clickClosePopUpButton();
 
-        Assert.assertEquals(patientPage.checkThatPatientCardIsDeleted(), 0);
+        CheckThatPatientCardIsDeleted checkThatPatientCardIsDeleted = new CheckThatPatientCardIsDeleted(driver);
+        Assert.assertEquals(checkThatPatientCardIsDeleted.checkThatPatientCardIsDeletedFromPatientPage(), 0);
 
         //Select Archive menu item on sidebar panel
         SideBarPanel sideBarPanel = new SideBarPanel(driver);
@@ -39,6 +40,6 @@ public class ClosePatientCardHelper {
         ArchivePage archivePage = new ArchivePage(driver);
         Assert.assertTrue(archivePage.patientCardsIsPresent(), "Failed! Archive page isn't loaded!");
 
-        Assert.assertEquals(archivePage.checkThatPatientCardIsPresent(), 1);
+        Assert.assertEquals(checkThatPatientCardIsDeleted.checkThatPatientCardIsPresentOnArchivePage(), 1);
     }
 }
