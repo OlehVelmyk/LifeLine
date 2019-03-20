@@ -14,7 +14,7 @@ public class SideBarPatientDetailPagePanel extends BasePage {
     private final By countryName = By.cssSelector(" div:nth-child(2) > div > div:nth-child(4) > span.info-card__value");
     private final By postCodeValue = By.cssSelector("div:nth-child(2) > div > div:nth-child(6) > span.info-card__value");
     private final By addressValue = By.cssSelector("div:nth-child(2) > div > div:nth-child(5) > span.info-card__value");
-    private final By closeFileLink = By.cssSelector("button:nth-child(5)");
+    private final By closeFileLink = By.xpath("//button[text()='Close the File']");
     private final By commentField = By.name("description");
     private final By closeFileButton = By.className("rectangular-button__wrapper");
     private final By closePatientPopup = By.className("popup__modal--open");

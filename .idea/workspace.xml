@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34e37426-de55-4df4-b842-735bd30817bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThatPatientCardIsDeleted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThatPatientCardIsDeleted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPatientDetailPagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPatientDetailPagePanel.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/com_scenario_projects_lifeline_front_stage$N_0001_LoginTest.ic" NAME="N_0001_LoginTest Coverage Results" MODIFIED="1546419798798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scenario_projects.lifeline_front_stage.tests.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/DriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CountDayTaskNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThatPatientCardIsDeleted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0017_CreatePatientCardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPatientDetailPagePanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <folding>
+                <element signature="e#1618#1619#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/ClosePatientCardHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>paginationBlock</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0013_BackToPatientsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0014_ClickArchiveMenuIconOnSideBarPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0015_ClickDashboardMenuIconOnSideBarPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0016_RefreshPatientDetailPlanningPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0018_CreateFreeModeTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0019_ClickWeekTabOnPatientPlanningPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0020_ClickMonthTabOnPatientPlanningPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0021_ClickDailyTabOnPatientPlanningPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0022_CreateSetFixedHoursTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0023_CreateSetTimeSlotTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0024_CreateImmediateTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0025_EditTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0026_DeleteTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0027_UndoneTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0028_ConfirmTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0029_ClickOnCareTabOnPatientDetailPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0030_RefreshPatientDetailCarePageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/СaptureScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/dataProvider/DateProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/RetryAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/CaptureScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPanel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/logging/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/DashBoardPage.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0005_LogOutTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/CreateNewPatientPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/model/PatientCardData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0017_CreatePatientCardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CreateNewPatientHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/DataConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/GetDayTaskCounter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/DayTaskCounter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/DayTaskCounter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/DayTaskNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/DueTaskNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0009_CheckDayTaskCounterOnDashboardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0010_CheckDueTasksCounterOnDashboardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PatientsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThathPatientCardIsDeleted.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/ArchivePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/ClosePatientCardHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/EmailPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PatientDetailPlanningPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/TasksPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CountDayTaskNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThatPatientCardIsDeleted.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPatientDetailPagePanel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.scenario_projects.lifeline_front_stage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.scenario_projects.lifeline_front_stage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="y" value="34" />
+    <option name="width" value="1390" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="actionHelpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.scenario_projects.lifeline_front_stage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.scenario_projects.lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeline_front_stage" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553085176113" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qatestlab_automation-lecture-4-1" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.scenario_projects.lifeline_front_stage.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.N_0017_CreatePatientCardTest">
+    <configuration name="N_0001_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.scenario_projects.lifeline_front_stage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scenario_projects.lifeline_front_stage.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scenario_projects.lifeline_front_stage.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_0002_ResetPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.scenario_projects.lifeline_front_stage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scenario_projects.lifeline_front_stage.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scenario_projects.lifeline_front_stage.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_0005_LogOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.scenario_projects.lifeline_front_stage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scenario_projects.lifeline_front_stage.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scenario_projects.lifeline_front_stage.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_0017_CreatePatientCardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.scenario_projects.lifeline_front_stage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scenario_projects.lifeline_front_stage.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scenario_projects.lifeline_front_stage.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_0030_RefreshPatientDetailCarePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.scenario_projects.lifeline_front_stage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scenario_projects.lifeline_front_stage.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scenario_projects.lifeline_front_stage.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.N_0017_CreatePatientCardTest" />
+        <item itemvalue="TestNG.N_0005_LogOutTest" />
+        <item itemvalue="TestNG.N_0001_LoginTest" />
+        <item itemvalue="TestNG.N_0030_RefreshPatientDetailCarePageTest" />
+        <item itemvalue="TestNG.N_0002_ResetPasswordTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34e37426-de55-4df4-b842-735bd30817bf" name="Default Changelist" comment="" />
+      <created>1545992977885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545992977885</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 15h 11m 08s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 15h 15m 00s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 15h 16m 52s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 16h 29m 21s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 16h 30m 22s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.14 at 16h 42m 52s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.15 at 09h 54m 12s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.15 at 09h 55m 34s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.20 at 14h 26m 18s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="N_0017_CreatePatientCardTest - 2019.03.20 at 14h 30m 49s.xml">
+      <configuration name="N_0017_CreatePatientCardTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36635306" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32289416" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35529158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21875" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32982844" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32982844" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34864417" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32289416" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35529158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21875" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32982844" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32982844" />
+    </layout-to-restore>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(DriverFactory.class.getResource(&quot;/&quot; + getDriverFileName(browser)).getFile())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(DriverFactory.class.getResource(&quot;/&quot; + getDriverFileName(browser)).getFile()).getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DriverFactory.class.getResource(&quot;/&quot; + getDriverFileName(browser)).getFile()).getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new OperaDriver()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>format.format(calendar.getTime())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>calendar.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.cssSelector(&quot;.categories-board__details-block--transform &gt; div.categories-board__block-body&gt; div &gt; div &gt; div:nth-child(1)&gt;.card-link-item__title&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>.categories-board__details-block--transform &gt; div.categories-board__block-body&gt; div &gt; div &gt; div:nth-child(1)&gt;.card-link-item__title</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0005_LogOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/logging/CustomReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/logging/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+          <folding>
+            <element signature="e#3563#3564#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3704#3705#0" expanded="true" />
+            <element signature="e#3757#3758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0021_ClickDailyTabOnPatientPlanningPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0022_CreateSetFixedHoursTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/dataProvider/BrowserTypeDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/dataProvider/DateProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0018_CreateFreeModeTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/dataProvider/LoginDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0015_ClickDashboardMenuIconOnSideBarPanelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/CaptureScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/RetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0025_EditTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/DayTaskCounter.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/DayTaskCounter.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/dataProvider/MenuDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CreateNewPatientHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0010_CheckDueTasksCounterOnDashboardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/DataConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="method#DataConverter#0;class#DataConverter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0013_BackToPatientsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/CreateNewPatientPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0024_CreateImmediateTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/CreateNewTaskPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/EmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/MessagesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/NewPasswordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PaginationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PatientDetailCarePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/ResetPasswordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0027_UndoneTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PatientDetailPlanningPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/TasksPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CountDueTaskNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/utils/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/DashBoardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0009_CheckDayTaskCounterOnDashboardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CountDayTaskNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/PatientsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/ArchivePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/model/PatientCardData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/ClosePatientCardHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/actionHelpers/CheckThatPatientCardIsDeleted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/tests/N_0017_CreatePatientCardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scenario_projects/lifeline_front_stage/pages/SideBarPatientDetailPagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.scenario_projects.lifeline_front_stage</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-exec:1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
