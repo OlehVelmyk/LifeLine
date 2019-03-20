@@ -23,14 +23,12 @@ public class CheckThatPatientCardIsDeleted extends BasePage {
 
     public int checkThatPatientCardIsDeletedFromPatientPage() {
         int count;
-        count = getCount(patientsPage.patientCardsIsPresent(), patientsPage.getFullNameField(), "NO PATIENT CARDS");
-        return count;
+        return count = getCount(patientsPage.patientCardsIsPresent(), patientsPage.getFullNameField(), "NO PATIENT CARDS");
     }
 
     public int checkThatPatientCardIsPresentOnArchivePage() {
         int count;
-        count = getCount(archivePage.patientCardsIsPresent(), archivePage.getFullNameField(), "NO PATIENT CARD ON ARCHIVE PAGE");
-        return count;
+        return count = getCount(archivePage.patientCardsIsPresent(), archivePage.getFullNameField(), "NO PATIENT CARD ON ARCHIVE PAGE");
     }
 
     private int getCount(boolean patientCardsIsPresent, By fullNameField, String message) {
