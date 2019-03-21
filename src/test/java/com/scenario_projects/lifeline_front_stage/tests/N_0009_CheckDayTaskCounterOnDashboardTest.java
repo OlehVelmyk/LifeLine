@@ -5,7 +5,6 @@ import com.scenario_projects.lifeline_front_stage.actionHelpers.LoginHelper;
 import com.scenario_projects.lifeline_front_stage.dataProvider.LoginDataProvider;
 import com.scenario_projects.lifeline_front_stage.pages.DashBoardPage;
 import com.scenario_projects.lifeline_front_stage.pages.PatientsPage;
-import com.scenario_projects.lifeline_front_stage.utils.RetryAnalyzer;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,7 +21,7 @@ public class N_0009_CheckDayTaskCounterOnDashboardTest extends BaseTest {
         login.login(LoginDataProvider.email, LoginDataProvider.password);
     }
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
+    @Test//(retryAnalyzer = RetryAnalyzer.class)
     public void checkTaskDayCounter() {
 
         //Get counter tasks day at the Dashboard

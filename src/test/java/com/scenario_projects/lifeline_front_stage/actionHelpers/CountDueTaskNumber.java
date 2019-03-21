@@ -17,10 +17,11 @@ public class CountDueTaskNumber extends BasePage {
     }
 
     PatientsPage patientsPage = new PatientsPage(driver);
+    PaginationPage paginationPage = new PaginationPage(driver);
 
     public int DueTasksNumberOnPatientsPage() {
         int newTasksNumber = 0;
-        if (new PaginationPage(driver).paginationBlockIsPresent(patientsPage.getPaginationBlock())) {
+        if (paginationPage.paginationBlockIsPresent(patientsPage.getPaginationBlock())) {
             newTasksNumber = getDueTasksCounterFromEachPatientsCard(newTasksNumber);
             CustomReporter.logAction("GET PAGINATION PAGES LIST");
             waitForClickable(patientsPage.getPaginationBlock());

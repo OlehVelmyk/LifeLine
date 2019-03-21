@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class CountDayTaskNumber extends BasePage {
-    protected WebDriver driver;
 
     public CountDayTaskNumber(WebDriver driver) {
         super(driver);
@@ -18,10 +17,11 @@ public class CountDayTaskNumber extends BasePage {
     PatientsPage patientsPage = new PatientsPage(driver);
     PatientDetailPlanningPage patientDetailPlanningPage = new PatientDetailPlanningPage(driver);
     TasksPage tasksPage = new TasksPage(driver);
+    PaginationPage paginationPage = new PaginationPage(driver);
 
     public int countDayTaskNumberOnPatientsDetailPage() {
         int newTasksNumber = 0;
-        if (new PaginationPage(driver).paginationBlockIsPresent(patientsPage.getPaginationBlock())) {
+        if (paginationPage.paginationBlockIsPresent(patientsPage.getPaginationBlock())) {
             newTasksNumber = getDayTaskCounterFromPatientCardOnPatientsDetailPage(newTasksNumber);
             CustomReporter.logAction("GET PAGINATION PAGES LIST");
             waitForClickable(patientsPage.getPaginationBlock());
@@ -37,7 +37,7 @@ public class CountDayTaskNumber extends BasePage {
         return newTasksNumber;
     }
 
-    public int getDayTaskCounterFromPatientCardOnPatientsDetailPage(int newTasksNumber) {
+    private int getDayTaskCounterFromPatientCardOnPatientsDetailPage(int newTasksNumber) {
         int tasksNumber;
         CustomReporter.logAction("GET PATIENTS CARDS LIST");
         if (patientsPage.patientCardsIsPresent()) {
@@ -45,19 +45,13 @@ public class CountDayTaskNumber extends BasePage {
             List<WebElement> list = driver.findElements(patientsPage.getPatientCards());
             for (int i = 0; i < list.size(); i++) {
                 if (i == 0) {
-                    list.get(i).click();
-                    tasksNumber = countingTasksNumberForToday();
-                    patientDetailPlanningPage.clickBackButton();
+                    tasksNumber = getTasksNumber(i);
                 } else {
                     try {
-                        patientsPage.clickOnThePatientsCard(i);
-                        tasksNumber = countingTasksNumberForToday();
-                        patientDetailPlanningPage.clickBackButton();
+                        tasksNumber = getTasksNumber(i);
                     } catch (WebDriverException ex) {
                         patientsPage.clickFilterButtonActive();
-                        patientsPage.clickOnThePatientsCard(i);
-                        tasksNumber = countingTasksNumberForToday();
-                        patientDetailPlanningPage.clickBackButton();
+                        tasksNumber = getTasksNumber(i);
                     }
                 }
                 newTasksNumber += tasksNumber;
@@ -70,7 +64,15 @@ public class CountDayTaskNumber extends BasePage {
         return newTasksNumber;
     }
 
-    public int countingTasksNumberForToday() {
+    private int getTasksNumber(int i) {
+        int tasksNumber;
+        patientsPage.clickOnThePatientsCard(i);
+        tasksNumber = countingTasksNumberForToday();
+        patientDetailPlanningPage.clickBackButton();
+        return tasksNumber;
+    }
+
+    private int countingTasksNumberForToday() {
         int tasksNumber = 0;
         waitForLocated(patientDetailPlanningPage.getListDayTasks());
         List<WebElement> list = driver.findElements(patientDetailPlanningPage.getListDayTasks());
@@ -88,7 +90,7 @@ public class CountDayTaskNumber extends BasePage {
         return tasksNumber;
     }
 
-    public int getTasksForDayNumber(int tasksNumber) {
+    private int getTasksForDayNumber(int tasksNumber) {
         waitForLocated(tasksPage.getTaskStatus());
         WebElement taskStatusText = driver.findElement(tasksPage.getTaskStatus());
         if (taskStatusText.getText().equalsIgnoreCase("Done") || taskStatusText.getText().equalsIgnoreCase("Undone")) {
