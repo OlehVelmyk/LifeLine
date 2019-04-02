@@ -3,23 +3,26 @@
 <suite name="Suite1" verbose="1" parallel="none">
     <test name="all-tests [Chrome]">
         <parameter name="browser" value="chrome"/>
-        <packages>
+        <!--<packages>
             <package name="com.scenario_projects.lifeline_front_stage.tests"/>
-        </packages>
+        </packages>-->
+        <classes>
+            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest"/>
+        </classes>
     </test>
 
-    <!--Configure tests for other browser type;-->
-    <test name="all-tests [Firefox]">
-        <parameter name="browser" value="firefox"/>
-        <packages>
-            <package name="com.scenario_projects.lifeline_front_stage.tests"/>
-        </packages>
-    </test>
+    <!-- &lt;!&ndash;Configure tests for other browser type;&ndash;&gt;
+     <test name="all-tests [Firefox]">
+         <parameter name="browser" value="firefox"/>
+         <packages>
+             <package name="com.scenario_projects.lifeline_front_stage.tests"/>
+         </packages>
+     </test>
 
-    <test name="all-tests [Opera]">
-        <parameter name="browser" value="opera"/>
-        <packages>
-            <package name="com.scenario_projects.lifeline_front_stage.tests"/>
-        </packages>
-    </test>
+     <test name="all-tests [Opera]">
+         <parameter name="browser" value="opera"/>
+         <packages>
+             <package name="com.scenario_projects.lifeline_front_stage.tests"/>
+         </packages>
+     </test>-->
 </suite>

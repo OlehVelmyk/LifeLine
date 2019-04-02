@@ -1,20 +1,23 @@
 package com.scenario_projects.lifeline_front_stage.tests;
 
 import com.scenario_projects.lifeline_front_stage.logging.EventHandler;
+import com.scenario_projects.lifeline_front_stage.logging.ScreenshotListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
 import static com.scenario_projects.lifeline_front_stage.utils.DriverFactory.initDriver;
 
+@Listeners({ScreenshotListener.class})
 public class BaseTest {
-    protected EventFiringWebDriver driver;
+    protected static EventFiringWebDriver driver;
     protected String baseUrl = "https://lifeline-front-stage.scenario-projects.com/auth/login";
     protected String url = "https://www.google.com/";
+
+    public static EventFiringWebDriver getDriver() {
+        return driver;
+    }
 
     @BeforeClass
     @Parameters("browser")

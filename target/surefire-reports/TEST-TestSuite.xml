@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,071.96" tests="64" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.697" tests="2" errors="0" skipped="1" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,8 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/test-classes:/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/classes:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/user/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/user/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/user/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/user/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/user/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/user/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/user/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/user/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/user/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/user/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/user/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/user/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/user/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/user/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/user/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/user/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/user/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
+    <property name="java.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/test-classes:/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/classes:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/user/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/user/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/user/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/user/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/user/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/user/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/user/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/user/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/user/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/user/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/user/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/user/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/user/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/user/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/user/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/user/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/user/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/user/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:"/>
+    <property name="org.uncommons.reportng.escape-output" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire/surefirebooter12213283874454184103.jar /home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire 2019-02-15T16-00-51_762-jvmRun1 surefire15401866616822353732tmp surefire_014264081273830020269tmp"/>
+    <property name="sun.java.command" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire/surefirebooter6081773127013910862.jar /home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire 2019-04-02T14-16-06_739-jvmRun1 surefire133725399243072746tmp surefire_04378823672896735714tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/test-classes:/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/classes:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/user/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/user/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/user/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/user/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/user/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/user/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/user/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/user/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/user/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/user/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/user/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/user/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/user/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/user/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/user/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/user/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/user/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/test-classes:/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/classes:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/user/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/user/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/user/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/user/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/user/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/user/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/home/user/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/user/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/user/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/user/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/user/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/user/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/user/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/user/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/user/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/user/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/user/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/user/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/user/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/user"/>
     <property name="user.language" value="en"/>
@@ -33,25 +34,25 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire/surefirebooter12213283874454184103.jar"/>
+    <property name="surefire.real.class.path" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage/target/surefire/surefirebooter6081773127013910862.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4"/>
     <property name="user.name" value="user"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.15.0-45-generic"/>
+    <property name="os.version" value="4.15.0-46-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="/home/user/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="idea.version" value="2018.3.4"/>
     <property name="java.version" value="10.0.2"/>
     <property name="user.dir" value="/home/user/IdeaProjects/com.scenario_projects.lifeline_front_stage"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
+    <property name="idea.version2019.1" value="true"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
@@ -59,68 +60,50 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="54.0"/>
   </properties>
-  <testcase name="checkTaskDayCounter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest" time="13.506"/>
-  <testcase name="checkTaskDayCounter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0010_CheckDueTasksCounterOnDashboardTest" time="13.604"/>
-  <testcase name="undoneTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest" time="2.213"/>
-  <testcase name="undoneTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0027_UndoneTaskTest" time="3.278"/>
-  <testcase name="checkTaskDayCounter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest" time="28.031"/>
-  <testcase name="checkTaskDayCounter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0009_CheckDayTaskCounterOnDashboardTest" time="30.687"/>
-  <testcase name="goToArchivePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest" time="1.707"/>
-  <testcase name="goToArchivePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0014_ClickArchiveMenuIconOnSideBarPanelTest" time="1.993"/>
-  <testcase name="loginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" time="3.693"/>
-  <testcase name="loginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" time="3.614"/>
-  <testcase name="backToLoginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest" time="3.189"/>
-  <testcase name="backToLoginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0003_BackToLoginPageTest" time="4.846"/>
-  <testcase name="goToMonthTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest" time="0.601"/>
-  <testcase name="goToMonthTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0021_ClickDailyTabOnPatientPlanningPageTest" time="0.785"/>
-  <testcase name="createdPatientCard" classname="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest" time="5.852"/>
-  <testcase name="createdPatientCard" classname="com.scenario_projects.lifeline_front_stage.tests.N_0017_CreatePatientCardTest" time="7.704"/>
-  <testcase name="goToWeekTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest" time="0.36"/>
-  <testcase name="goToWeekTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0019_ClickWeekTabOnPatientPlanningPageTest" time="0.394"/>
-  <testcase name="checkVisibilityPassword" classname="com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest" time="2.934"/>
-  <testcase name="checkVisibilityPassword" classname="com.scenario_projects.lifeline_front_stage.tests.N_0008_VisibilityPasswordOnLoginPageTest" time="4.48"/>
-  <testcase name="refreshMessagesPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest" time="2.036"/>
-  <testcase name="refreshMessagesPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0012_RefreshMessagesPageTest" time="2.867"/>
-  <testcase name="createSetFixedHoursTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest" time="5.608"/>
-  <testcase name="createSetFixedHoursTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0023_CreateSetTimeSlotTaskTest" time="6.257"/>
-  <testcase name="goToCarePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest" time="2.132"/>
-  <testcase name="goToCarePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0030_RefreshPatientDetailCarePageTest" time="2.825"/>
-  <testcase name="goToMonthTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest" time="0.409"/>
-  <testcase name="goToMonthTab" classname="com.scenario_projects.lifeline_front_stage.tests.N_0020_ClickMonthTabOnPatientPlanningPageTest" time="0.468"/>
-  <testcase name="createNewModeTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest" time="5.742"/>
-  <testcase name="createNewModeTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0018_CreateFreeModeTaskTest" time="5.449"/>
-  <testcase name="confirmTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest" time="2.755"/>
-  <testcase name="confirmTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0028_ConfirmTaskTest" time="3.38"/>
-  <testcase name="goToCarePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest" time="0.421"/>
-  <testcase name="goToCarePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0029_ClickOnCareTabOnPatientDetailPageTest" time="0.373"/>
-  <testcase name="refreshPatientsDetailPlanningPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest" time="1.959"/>
-  <testcase name="refreshPatientsDetailPlanningPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0016_RefreshPatientDetailPlanningPageTest" time="2.459"/>
-  <testcase name="refreshDashBoardPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest" time="1.682"/>
-  <testcase name="refreshDashBoardPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0004_RefreshDashBoardPageTest" time="2.449"/>
-  <testcase name="goToPatientsPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest" time="0.318"/>
-  <testcase name="goToPatientsPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0006_ClickPatientsMenuIconOnSideBarPanelTest" time="0.424"/>
-  <testcase name="createImmediateTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest" time="4.344"/>
-  <testcase name="createImmediateTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0024_CreateImmediateTaskTest" time="5.232"/>
-  <testcase name="deleteTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest" time="2.446"/>
-  <testcase name="deleteTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0026_DeleteTaskTest" time="3.257"/>
-  <testcase name="resetPasswordTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="5.248"/>
-  <testcase name="resetPasswordTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="7.369"/>
-  <testcase name="editTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest" time="2.771"/>
-  <testcase name="editTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0025_EditTaskTest" time="3.882"/>
-  <testcase name="emailTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="17.698"/>
-  <testcase name="emailTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="20.977"/>
-  <testcase name="checkPatientsWithTasksOfTheDayFilter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest" time="0.211"/>
-  <testcase name="checkPatientsWithTasksOfTheDayFilter" classname="com.scenario_projects.lifeline_front_stage.tests.N_0013_BackToPatientsPageTest" time="0.213"/>
-  <testcase name="changePasswordTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="3.221"/>
-  <testcase name="changePasswordTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0002_ResetPasswordTest" time="4"/>
-  <testcase name="createSetFixedHoursTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest" time="6.553"/>
-  <testcase name="createSetFixedHoursTask" classname="com.scenario_projects.lifeline_front_stage.tests.N_0022_CreateSetFixedHoursTaskTest" time="7.662"/>
-  <testcase name="goToDashboardPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest" time="2.199"/>
-  <testcase name="goToDashboardPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0015_ClickDashboardMenuIconOnSideBarPanelTest" time="2.127"/>
-  <testcase name="goToMessagePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest" time="0.438"/>
-  <testcase name="goToMessagePage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0011_ClickMessagesMenuIconOnSideBarPanelTest" time="0.529"/>
-  <testcase name="logout" classname="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest" time="1.321"/>
-  <testcase name="logout" classname="com.scenario_projects.lifeline_front_stage.tests.N_0005_LogOutTest" time="1.63"/>
-  <testcase name="refreshPatientsPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest" time="3.06"/>
-  <testcase name="refreshPatientsPage" classname="com.scenario_projects.lifeline_front_stage.tests.N_0007_RefreshPatientsPageTest" time="2.576"/>
+  <testcase name="loginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" time="0">
+    <skipped message="Expected condition failed: waiting for element to be clickable: By.cssSelector: button[class=&apos;rectangular-button__wrappe  &apos;] (tried for 10 second(s) with 500 milliseconds interval)"/>
+    <system-out><![CDATA[Before navigating to: 'https://lifeline-front-stage.scenario-projects.com/auth/login'
+Navigated to:'https://lifeline-front-stage.scenario-projects.com/auth/login'
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.cssSelector: button[class='rectangular-button__wrappe  ']
+Found Element By : By.cssSelector: button[class='rectangular-button__wrappe  ']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5) on port 8176
+Only local connections are allowed.
+Apr 02, 2019 2:16:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest" time="17.315">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: button[class=&apos;rectangular-button__wrappe  &apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[class='rectangular-button__wrappe  '] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest.loginTest(N_0001_LoginTest.java:15)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: button[class='rectangular-button__wrappe  ']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'user-System-Product-Name', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-46-generic', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest.loginTest(N_0001_LoginTest.java:15)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://lifeline-front-stage.scenario-projects.com/auth/login'
+Navigated to:'https://lifeline-front-stage.scenario-projects.com/auth/login'
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.cssSelector: button[class='rectangular-button__wrappe  ']
+Found Element By : By.cssSelector: button[class='rectangular-button__wrappe  ']
+]]></system-out>
+  </testcase>
 </testsuite>

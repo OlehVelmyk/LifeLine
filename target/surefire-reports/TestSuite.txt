@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,071.96 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 38.697 s <<< FAILURE! - in TestSuite
+loginTest(com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest)  Time elapsed: 17.315 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[class='rectangular-button__wrappe  '] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest.loginTest(N_0001_LoginTest.java:15)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: button[class='rectangular-button__wrappe  ']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'user-System-Product-Name', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-46-generic', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest.loginTest(N_0001_LoginTest.java:15)
+

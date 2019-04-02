@@ -30,7 +30,7 @@ public class DateProvider {
     public static String newCurrentTime() {
         Date dNow = new Date();
         SimpleDateFormat ft =
-                new SimpleDateFormat("HH:mm:ss.SSS");
+                new SimpleDateFormat("HH:mm:ss");
         return ft.format(dNow);
     }
 }
