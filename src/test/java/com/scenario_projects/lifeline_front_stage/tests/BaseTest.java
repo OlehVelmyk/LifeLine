@@ -9,7 +9,8 @@ import java.util.concurrent.TimeUnit;
 
 import static com.scenario_projects.lifeline_front_stage.utils.DriverFactory.initDriver;
 
-@Listeners({ScreenshotListener.class})
+
+@Listeners({ScreenshotListener.class, /*TestFinish.class*/})
 public class BaseTest {
     protected static EventFiringWebDriver driver;
     protected String baseUrl = "https://lifeline-front-stage.scenario-projects.com/auth/login";
@@ -21,7 +22,7 @@ public class BaseTest {
 
     @BeforeClass
     @Parameters("browser")
-    public void setUpDriver(@Optional("chrome") String browser) {
+    public void setUpDriver(@Optional("firefox") String browser) {
         driver = new EventFiringWebDriver(initDriver(browser));
         driver.register(new EventHandler());
 
@@ -35,5 +36,13 @@ public class BaseTest {
         if (driver != null) {
             driver.quit();
         }
+    }
+
+    @AfterSuite
+    public void sendReportToEmail() {
+        //AddFileToArchive addFileToArchive = new AddFileToArchive();
+        //addFileToArchive.createArchive();
+        //SendMailSSLWithAttachment.sendReportFileToMail();
+        //DeleteReportZipFile.deleteZipFile();
     }
 }

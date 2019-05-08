@@ -1,8 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1" parallel="none">
-    <test name="all-tests [Chrome]">
+    <!--<test name="all-tests [Chrome]">
         <parameter name="browser" value="chrome"/>
+        &lt;!&ndash;<packages>
+            <package name="com.scenario_projects.lifeline_front_stage.tests"/>
+        </packages>&ndash;&gt;
+        <classes>
+            <class name="com.scenario_projects.lifeline_front_stage.tests.N_0001_LoginTest"/>
+        </classes>
+    </test>-->
+
+    <test name="all-tests [Firefox]">
+        <parameter name="browser" value="firefox"/>
         <!--<packages>
             <package name="com.scenario_projects.lifeline_front_stage.tests"/>
         </packages>-->

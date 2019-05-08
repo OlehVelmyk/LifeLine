@@ -54,4 +54,16 @@ public class DataConverter {
         Assert.assertTrue(qtyMatcher.find(), "Unable to extract Due tasks value!");
         return qtyMatcher.group();
     }
+
+    public static String parseFileName(String label) {
+        Matcher qtyMatcher = Pattern.compile("\\w+\\.\\w+$").matcher(label);
+        Assert.assertTrue(qtyMatcher.find(), "Unable to extract Due tasks value!");
+        return qtyMatcher.group();
+    }
+
+    public static String parseFilePath(String label) {
+        Matcher qtyMatcher = Pattern.compile("\\w+\\/\\w+\\-\\d+\\-\\d+\\_\\d+\\-\\d+\\-\\d+").matcher(label);
+        Assert.assertTrue(qtyMatcher.find(), "Unable to extract Due tasks value!");
+        return qtyMatcher.group();
+    }
 }
